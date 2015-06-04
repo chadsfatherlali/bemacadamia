@@ -1,0 +1,38 @@
+{
+    "name": "vendor/bemacadamia",
+    "authors": [
+      {
+        "name": "Chasfather",
+        "email": "chadsfather@gmail.com"
+      }
+    ],
+    "require": {
+      "matthiasmullie/path-converter": "~1.0",
+      "matthiasmullie/minify": "dev-master",
+      "phpclasses/shoppingbasket": ">=1.0.0"
+    },
+    "repositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/matthiasmullie/path-converter.git"
+      },
+      {
+        "type": "git",
+        "url": "https://github.com/matthiasmullie/minify.git"
+      },
+      {
+        "type": "composer",
+        "url": "http:\/\/www.phpclasses.org\/"
+      },
+      {
+        "packagist": false
+      }
+    ],
+    "autoload": {
+      "classmap": [
+        "vendor/wpdbobject",
+        "vendor/google-api-php-client",
+        "vendor/googleapi"
+      ]
+    }
+}

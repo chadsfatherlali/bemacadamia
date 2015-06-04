@@ -1,0 +1,104 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../wp-content/plugins/tokensManager/staticFiles/editTable.css" />
+<link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="../wp-content/plugins/tokensManager/staticFiles/editTable.js"></script>
+
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+
+            <table class="u-full-width demo">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Texto</th>
+                        <th>Referencia</th>
+                        <th>Editar</th>
+                    </tr>
+                </thead>
+                <tbody id="content_labels">
+
+                    <script type="text/template" id="labels">
+                        <% _.each(labels, function(label) { %>
+                            <tr data-id="<% print(label.id); %>">
+                                <td data-field="id"><% print(label.id); %></td>
+                                <td data-field="text"><% print(label.text); %></td>
+                                <td data-field="reference"><% print(label.reference); %></td>
+                                <td>
+                                    <a class="button button-small edit" title="Edit">
+                                        <i class="fa fa-pencil"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        <% }); %>
+                    </script>
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+
+
+<script>
+    (function($, _) {
+        var url_request = '{{ url_request_path }}';
+        var labels_info = {
+            labels: {{ labels }}
+        };
+
+        var templateCompilado = _.template($('#labels').html());
+        $('#content_labels').html(templateCompilado(labels_info));
+
+        $('table tr').editable({
+            edit: function(values) {
+                disabledId();
+
+                $(".edit i", this)
+                        .removeClass('fa-pencil')
+                        .addClass('fa-save')
+                        .attr('title', 'Save');
+            },
+
+            save: function(values) {
+                $(".edit i", this)
+                        .removeClass('fa-save')
+                        .addClass('fa-pencil')
+                        .attr('title', 'Edit');
+
+                ajax({
+                    accion: 'save',
+                    data: values
+                });
+            },
+
+            cancel: function(values) {
+                $(".edit i", this)
+                        .removeClass('fa-save')
+                        .addClass('fa-pencil')
+                        .attr('title', 'Edit');
+            }
+        });
+
+        function ajax(obj)
+        {
+            $.get(url_request,
+                    obj,
+                    function(response) {
+                        if(!response) {
+                            alert('Se ha producido un error');
+                        }
+                    }
+            );
+        }
+
+        function disabledId()
+        {
+            $('table tr td[data-field="id"]').find('input').attr('disabled', 'disabled');
+        }
+    })(jQuery, _);
+</script>

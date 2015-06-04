@@ -1,0 +1,50 @@
+/* CAROUSEL */
+/*!
+ * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+.carousel,
+.item,
+.active {
+  height: 100%; }
+
+.carousel-inner {
+  height: 100%; }
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+.carousel-control {
+  background-image: none !important; }
+
+.carousel-control:focus, .carousel-control:hover {
+  background-image: none !important; }
+
+.carousel-indicators {
+  bottom: 90px; }
+
+/* HEADER */
+#main-nav-bar.navbar {
+  border-bottom: 1px solid white !important; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white; }
+
+.navbar-default .navbar-nav > .active > a {
+  color: white; }
+
+.logo-bemacadamia-header svg path {
+  fill: white; }
+.logo-bemacadamia-header svg line {
+  fill: white; }
+.logo-bemacadamia-header svg rect {
+  fill: white; }
+
+/*# sourceMappingURL=index.css.map */

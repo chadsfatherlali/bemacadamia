@@ -1,0 +1,116 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../wp-content/plugins/gdriveManager/staticFiles/editTable.css" />
+<link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="../wp-content/plugins/gdriveManager/staticFiles/editTable.js"></script>
+
+<div class="container">
+    <div class="row">
+        <div class="twelve columns">
+
+            <table class="u-full-width demo">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Folder</th>
+                    <th>Link</th>
+                </tr>
+                </thead>
+                <tbody id="content_labels">
+
+                <script type="text/template" id="labels">
+                    <% _.each(images, function(image) { %>
+                    <tr data-id="<% print(image.id); %>">
+                        <td data-field="id"><% print(image.id); %></td>
+                        <td data-field="folder_id"><% print(image.folder_id); %></td>
+                        <td data-field="link"><a target="_blank" href="https://drive.google.com/drive/u/0/folders/<% print(image.folder_id); %>">Link</a> </td>
+                    </tr>
+                    <% }); %>
+                </script>
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <a href="{{ url_gdrive }}" class="btn btn-danger">Actualizar</a>
+
+    <div class="row alert-boxes">
+        <div id="successdb" class="alert alertsdb alert-success" role="alert">
+            Successs!, se ha procesado correctamente la carga de imagenes.
+        </div>
+
+        <div id="errordb" class="alert alertsdb alert-danger" role="alert">
+            Danger!, se ha producido un error.
+        </div>
+    </div>
+</div>
+
+
+<script>
+    (function($, _) {
+        var result_db = '{{ result_db }}';
+        var url_request = '{{ url_request_path }}';
+        var images_info = {
+            images: {{ images }}
+        };
+
+        if(result_db !== 'noaction') {
+            var alerts = result_db == 1 ? '#successdb' : '#errordb';
+
+            $(alerts).show();
+        }
+
+        var templateCompilado = _.template($('#labels').html());
+        $('#content_labels').html(templateCompilado(images_info));
+
+        $('table tr').editable({
+            edit: function(values) {
+                disabledId();
+                disableFolderId();
+                disableLink();
+
+                $(".edit i", this)
+                        .removeClass('fa-pencil')
+                        .addClass('fa-save')
+                        .attr('title', 'Save');
+            },
+
+            save: function(values) {
+                $(".edit i", this)
+                        .removeClass('fa-save')
+                        .addClass('fa-pencil')
+                        .attr('title', 'Edit');
+
+                ajax({
+                    accion: 'save',
+                    data: values
+                });
+            },
+
+            cancel: function(values) {
+                $(".edit i", this)
+                        .removeClass('fa-save')
+                        .addClass('fa-pencil')
+                        .attr('title', 'Edit');
+            }
+        });
+
+        function disableLink()
+        {
+            $('table tr td[data-field="link"]').find('input').attr('disabled', 'disabled');
+        }
+
+        function disableFolderId()
+        {
+            $('table tr td[data-field="folder_id"]').find('input').attr('disabled', 'disabled');
+        }
+
+        function disabledId()
+        {
+            $('table tr td[data-field="id"]').find('input').attr('disabled', 'disabled');
+        }
+    })(jQuery, _);
+</script>

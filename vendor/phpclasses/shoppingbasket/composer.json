@@ -1,0 +1,6 @@
+{
+	"autoload":
+	{
+		"classmap": ["shoppingbasket.class.php"]
+	}
+}
