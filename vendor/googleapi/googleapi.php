@@ -163,7 +163,7 @@ class googleapi
 
             sleep(1);
         }
-        die;
+
         header('location: http://' . $_SERVER['SERVER_NAME'] . '/wp-admin/admin.php?page=gDrive-manager&updatedb=' . $res);
     }
 
