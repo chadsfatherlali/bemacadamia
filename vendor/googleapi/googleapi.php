@@ -23,9 +23,6 @@ class googleapi
     const CONST_REDIRECT_URI = 'http://bemacadamia.cdxperience.com/vendor/googleapi/googleapi.php';
     /** @var array Scopes del APi */
     static $scopes = array('https://www.googleapis.com/auth/drive');
-
-    /** @var  Access token */
-    private $accessToken;
     /** @var  Array con las rutas devueltas por Gdrvie */
     private $files;
     private $wpdb;
@@ -49,16 +46,6 @@ class googleapi
     }
 
     /**
-     * Metodo que retorna las rutas de Gdrive
-     *
-     * @return Array
-     */
-    public function getFiles()
-    {
-        return $this->files;
-    }
-
-    /**
      * Proceso backend para obtener las imagenes de Gdrive
      *
      * @param Google_Client $client
@@ -72,15 +59,19 @@ class googleapi
             throw new Exception('Debe estar establecido el id del folder contenedor de las imagenes');
         }
 
-        if($this->accessToken) {
-            return $this->exec($client, $folderId);
-        }
-
         else {
             if (isset($_GET['code'])) {
-                $client->authenticate($_GET['code']);
-                //$this->accessToken = $client->getAccessToken();
-                return $this->exec($client, $folderId);
+                try {
+                    $client->authenticate($_GET['code']);
+                    //$this->accessToken = $client->getAccessToken();
+                    $this->exec($client, $folderId);
+                }
+
+                catch(Exception $e) {
+                    echo 'Debes estar logado con <a href="https://www.gmail.com">bemacadamia@gmail.com</a>';
+
+                    throw new Exception('Debe estar logado con bemacadamia@gmail.com');
+                }
             }
 
             else {
@@ -127,7 +118,7 @@ class googleapi
         $client->setAccessToken($client->getAccessToken());
         //$client->refreshToken($client->getRefreshToken());
 
-        return $this->doAction($client, $folderId);
+        $this->doAction($client, $folderId);
     }
 
     /**
@@ -140,6 +131,7 @@ class googleapi
     private function doAction(Google_Client $client, $folderId)
     {
         $folders= array();
+        $res = 0;
 
         /*$query = array(
             '"' . $folderId . '" in parents',
@@ -149,32 +141,38 @@ class googleapi
         $service = new Google_Service_Drive($client);
 
         $list = $service->children->listChildren($folderId);
-        print_r($list);die;
+
         foreach($list->getItems() as $folder) {
             $folders[] = $folder->id;
         }
 
         foreach($folders as $folder) {
             $files = array($service->files->listFiles(array(
-                'q' => '"' . $folder . '" in parents'
+                'q' => '"' . $folder . '" in parents and trashed = false'
             )));
 
-            $this->todb($folder, $files);
+            $res = $this->todb($folder, $files);
+
+            sleep(1);
         }
+        die;
+        header('location: http://' . $_SERVER['SERVER_NAME'] . '/wp-admin/admin.php?page=gDrive-manager&updatedb=' . $res);
     }
 
     /**
      * @param $key
      * @param $array
+     * @return bool
      */
     private function todb($key, $array)
-    {   $todb = array();
+    {
+        $todb = array();
 
         foreach($array as $items) {
             $todb[$key] = $this->extractItems($key, $items);
         }
 
-        $this->save($todb);
+        return $this->save($todb);
     }
 
 
@@ -188,13 +186,11 @@ class googleapi
         $files = array();
 
         foreach($items->getItems() as $item) {
-            if(!$item->explicitlyTrashed) {
-                $files[] = array(
-                    'name' => $item->originalFilename,
-                    'thumb' => $item->thumbnailLink,
-                    'img' => 'http://googledrive.com/host/' . $key . '/' . $item->originalFilename
-                );
-            }
+            $files[] = array(
+                'name' => $item->originalFilename,
+                'thumb' => $item->thumbnailLink,
+                'img' => 'http://googledrive.com/host/' . $key . '/' . $item->originalFilename
+            );
         }
 
         return $files;
@@ -202,37 +198,36 @@ class googleapi
 
 
     /**
-     * Guarda un array con el esquema de imagenes de gDrive
-     *
      * @param $array
+     * @return bool
      */
     private function save($array)
     {
-        $res = false;
+        $res = 0;
 
-        foreach($array as $key => $value) {
-            $result = $this->wpdb->get_results("select id
-            from wp_gdrvie
+        $key = key($array);
+        $value = serialize($array[$key]);
+
+        $result = $this->wpdb->get_results("select id
+        from wp_gdrive
+        where folder_id = '$key'", "ARRAY_A");
+
+        if($result) {
+            $res = $this->wpdb->query("update wp_gdrive
+            set Json = '$value'
             where folder_id = '$key'", "ARRAY_A");
-
-            if($result) {
-                $value = json_encode($value, true);
-
-                $res = $this->wpdb->query("update wp_gdrive
-                set Json = '$value'", "ARRAY_A");
-            }
-
-            else {
-                $value = json_encode($value, true);
-
-                $res = $this->wpdb->query("insert
-                into wp_gdrive
-                (folder_id, Json)
-                values ('$key', '$value')", "ARRAY_A");
-            }
         }
 
-        header('location: http://' . $_SERVER['SERVER_NAME'] . '/wp-admin/admin.php?page=gDrive-manager&updatedb=' . $res);
+        else {
+            $value = serialize($value);
+
+            $res = $this->wpdb->query("insert
+            into wp_gdrive
+            (folder_id, Json)
+            values ('$key', '$value')", "ARRAY_A");
+        }
+
+        return $res;
     }
 }
 

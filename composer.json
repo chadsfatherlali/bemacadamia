@@ -30,9 +30,13 @@
     ],
     "autoload": {
       "classmap": [
+        "vendor/PHPMailer",
         "vendor/wpdbobject",
         "vendor/google-api-php-client",
-        "vendor/googleapi"
+        "vendor/googleapi",
+        "vendor/cart",
+        "vendor/Underscore.php",
+        "vendor/pagos/pagos.php"
       ]
     }
 }

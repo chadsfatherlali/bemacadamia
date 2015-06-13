@@ -165,6 +165,7 @@ class assetsManager
     private function getPageAssets($key)
     {
         $pageName = $this->pageName? $this->pageName : 'index';
+        $pageName = is_single()? 'post' : $pageName;
 
         if($_REQUEST['page_name'] == '1') var_dump($pageName);
 
@@ -213,11 +214,19 @@ class assetsManager
     {
         $wpdb = wpdbobject::getwpdobject();
 
-        $result = $wpdb->get_results("select Json
-        from wp_gdrive
-        where id = $id", "ARRAY_A");
+        if(is_int($id)) {
+            $result = $wpdb->get_results("select Json
+            from wp_gdrive
+            where id = $id", "ARRAY_A");
+        }
 
-        return json_decode($result[0]['Json'], true);
+        else {
+            $result = $wpdb->get_results("select Json
+            from wp_gdrive
+            where folder_id = '$id'", "ARRAY_A");
+        }
+
+        return unserialize($result[0]['Json']);
     }
 
     /**

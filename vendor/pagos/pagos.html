@@ -1,0 +1,58 @@
+<p>Hola, macadamia!!</p>
+
+<p>Muchas gracias por interesarte en nuestros modelos y ponerte en contacto con nosotros!</p>
+
+<p><strong>El método de pago es el siguiente:</strong></p>
+
+<ul>
+    <li>
+        <div><strong>1)</strong> A través de transferencia bancaria al siguiente número de cuenta: xxxx.</div>
+        <div>Una vez nos hagas llegar el justificante de la transferencia,tramitaremos tu pedido y te llegara en un plazo de 24/48horas.</div>
+    </li>
+
+    <li>
+        <div><strong>2)</strong> A contra reembolso, lo cual lleva aparejado un gasto extra pues la empresa de transportes tiene que volver a remitirnos el importe del pedido.</div>
+    </li>
+
+</ul>
+
+
+<p>Una vez decidas el método de pago, háznoslo saber y empezaremos a tramitar tu pedido para que puedas recibir tus macadamias cuanto antes. !Muchas gracias por confiar en nosotros!!</p>
+
+
+<h2>Detalles de tu pedido:</h2>
+
+<div>Nombre: {{ nombre }}</div>
+<div>Apellido: {{ apellido }}</div>
+<div>Email: {{ email }}</div>
+<div>Dirección: {{ direccion }}</div>
+<div>Código Postal: {{ cpostal }}</div>
+<div>Ciudad: {{ ciudad }}</div>
+<div>Teléfono: {{ telefono }}</div>
+<div>Tipo de pago: {{ pago }}</div>
+<div>Código de pedido: {{ hash }}</div>
+
+
+<br />
+<br />
+
+<table width="500">
+    <thead>
+        <tr>
+            <td><strong>Producto</strong></td>
+            <td><strong>Talla</strong></td>
+            <td><strong>Cantidad</strong></td>
+            <td><strong>Color</strong></td>
+            <td><strong>Precio unidad</strong></td>
+            <td><strong>Precio total</strong></td>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            {{ table }}
+        </tr>
+    </tbody>
+</table>
+
+<p><strong>Equipo be_macadamia</strong></p>

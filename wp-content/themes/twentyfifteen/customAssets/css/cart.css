@@ -1,0 +1,75 @@
+.products {
+  margin: auto;
+  width: 80%; }
+
+.listado-productos .producto-info {
+  margin-bottom: 1em; }
+.listado-productos .img-producto {
+  width: 100%;
+  height: 110px;
+  background-size: cover;
+  background-position: top; }
+.listado-productos .circle-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid #000000; }
+
+.separator {
+  background-color: #000000;
+  width: 50px;
+  height: 1px;
+  margin: 20px 0; }
+
+.headers {
+  margin: 30px 0; }
+
+#totales {
+  border-top: 1px dotted #949494;
+  padding: 1em 0; }
+
+.form-user {
+  overflow: hidden;
+  position: relative;
+  max-height: 1000px; }
+
+.payment-method-1 {
+  transform: translate(0%, 0%);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.payment-method-1.next {
+  transform: translate(-110%, 0%); }
+
+.payment-method-2 {
+  transform: translate(100%, -108.9%);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.payment-method-2.next {
+  transform: translate(0%, -108.9%); }
+
+.toTrash {
+  cursor: pointer; }
+
+.info-cliente-header {
+  margin: 1em 0; }
+
+#editar-info {
+  cursor: pointer; }
+
+.pagos-info {
+  position: relative;
+  top: -25px;
+  cursor: pointer; }
+
+.billing-methods {
+  border-top: 1px dotted #949494;
+  border-bottom: 1px dotted #949494;
+  margin: 4em 0; }
+
+/*# sourceMappingURL=cart.css.map */

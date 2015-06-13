@@ -21,4 +21,4 @@ get_header('bemacadamia');
         </div>
     </div>
 <?php
-get_footer('bemacadamia');
+get_footer('bemacadamia'); ?>

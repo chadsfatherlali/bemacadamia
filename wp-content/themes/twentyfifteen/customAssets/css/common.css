@@ -2,44 +2,110 @@
 @font-face {
   font-family: 'play-fair-regular';
   src: url("/wp-content/themes/twentyfifteen/fonts/playfair-display/PlayfairDisplay-Regular.otf");
-  font-weight: normal;
+  font-weight: lighter;
   font-style: normal; }
 @font-face {
   font-family: 'source-sans-pro';
   src: url("/wp-content/themes/twentyfifteen/fonts/source-sans-pro/SourceSansPro-Regular.ttf");
-  font-weight: normal;
+  font-weight: lighter;
   font-style: normal; }
 /* COLORES */
+/* FUENTES */
+.font-gris {
+  color: #949494; }
+
+.font-blanco {
+  color: white; }
+
+.play-fair-regular {
+  font-family: 'play-fair-regular'; }
+
+.source-sans-pro {
+  font-family: 'source-sans-pro'; }
+
 /* GENERALES */
 html, body {
-  background: none !important;
-  height: 100%; }
+  background: none !important; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin-bottom: 90px; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.no-padding-left {
+  padding-left: 0 !important; }
 
 .w-20 {
-  width: 20px; }
+  width: 20px !important; }
 
 .w-200 {
-  width: 200px; }
+  width: 200px !important; }
 
 .w-150 {
-  width: 150px; }
+  width: 150px !important; }
 
 .txt-center {
-  text-align: center; }
+  text-align: center !important; }
 
 .txt-right {
-  text-align: right; }
+  text-align: right !important; }
 
 .f-right {
+  float: right !important; }
+
+.font-8 {
+  font-size: 8px !important; }
+
+.font-10 {
+  font-size: 10px !important; }
+
+.font-12 {
+  font-size: 12px !important; }
+
+.font-14 {
+  font-size: 14px !important; }
+
+.font-16 {
+  font-size: 16px !important; }
+
+.font-18 {
+  font-size: 18px !important; }
+
+.font-24 {
+  font-size: 24px !important; }
+
+.float-left {
+  float: left; }
+
+.float-right {
   float: right; }
+
+.txt-gris {
+  color: #949494 !important; }
+
+.txt-negro {
+  color: black !important; }
+
+.txt-blanco {
+  color: white !important; }
 
 /* HEADER */
 #main-nav-bar.navbar {
-  padding-top: 10px;
-  border-bottom: 1px solid #949494 !important; }
-  @media (min-width: 768px) {
-    #main-nav-bar.navbar {
-      margin: 0px 2em; } }
+  background-color: rgba(255, 255, 255, 0.95) !important; }
+  #main-nav-bar.navbar .container-fluid {
+    padding-top: 10px;
+    border-bottom: 1px solid #949494 !important; }
+    @media (min-width: 768px) {
+      #main-nav-bar.navbar .container-fluid {
+        margin: 0px 2em; } }
+
+#main-nav-bar .navbar-nav {
+  margin: 0 !important; }
 
 .navbar-default {
   background: none !important; }
@@ -48,14 +114,20 @@ html, body {
   font-family: 'source-sans-pro';
   color: #000000; }
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #949494; }
+
 .navbar-default .navbar-nav > .active > a {
   background: none !important;
   text-decoration: line-through;
   color: #949494; }
 
+.navbar .active .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+  color: #949494 !important; }
+
 .logo-bemacadamia-header svg {
   position: relative;
-  top: 1px;
+  top: 8px;
   width: 200px; }
 
 .cesta-compra-header svg {
@@ -63,14 +135,20 @@ html, body {
   top: 4px;
   width: 20px;
   height: 20px; }
-  .cesta-compra-header svg path {
-    fill: white; }
 
 #menu-responsive-link span {
   color: #000000; }
 
+/* BODY */
+.body-contain {
+  margin-top: 4em; }
+  @media (min-width: 1200px) {
+    .body-contain {
+      margin-top: 4.7em; } }
+
 /* FOOTER */
-.footer {
+footer {
+  /* Set the fixed height of the footer here */
   font-size: 0.9em;
   padding: 0.5em 0;
   padding-top: 15px;
@@ -78,13 +156,12 @@ html, body {
   font-family: 'play-fair-regular';
   position: absolute;
   bottom: 0;
-  left: 0;
   width: 100%;
   height: 90px;
   background: #000000; }
-  .footer .container-fluid {
+  footer .container-fluid {
     background-color: #000000; }
-  .footer p {
+  footer p {
     margin: 0 !important; }
 
 .social-networks-container-footer {
@@ -97,5 +174,24 @@ html, body {
   margin: 0 0 -12px !important; }
   #logo-footer svg {
     width: 150px; }
+
+/*BOTONES BOOTSTRAP*/
+.btn {
+  text-transform: none !important;
+  padding: 5px 45px !important; }
+
+.btn-default {
+  border: 1px solid black !important; }
+
+/* INPUT BOOTSTRAP */
+.form-group .form-control:focus, .form-group-default .form-control:focus {
+  background-image: linear-gradient(#000000, #000000), linear-gradient(#000000, #000000) !important; }
+
+/* SEPARADORES */
+.separador-h1 {
+  width: 50px;
+  height: 1px;
+  background: #000000;
+  margin: 20px 0; }
 
 /*# sourceMappingURL=common.css.map */

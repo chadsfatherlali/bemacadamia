@@ -1,9 +1,20 @@
+/* HTML - BODY */
+html, body {
+  background: black !important; }
+
+/* COLORES */
 /* CAROUSEL */
 /*!
  * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+#myCarousel {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
 .carousel,
 .item,
 .active {
@@ -31,8 +42,15 @@
   bottom: 90px; }
 
 /* HEADER */
+.cesta-compra-header svg path {
+  fill: white; }
+
 #main-nav-bar.navbar {
-  border-bottom: 1px solid white !important; }
+  background: none !important; }
+  #main-nav-bar.navbar .container-fluid {
+    border-bottom: 1px solid white !important;
+    filter: alpha(opacity=80);
+    opacity: 0.8; }
 
 .navbar-default .navbar-nav > li > a {
   color: white; }
@@ -40,11 +58,49 @@
 .navbar-default .navbar-nav > .active > a {
   color: white; }
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: white !important; }
+
+.navbar .active .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+  color: white !important; }
+
 .logo-bemacadamia-header svg path {
   fill: white; }
 .logo-bemacadamia-header svg line {
   fill: white; }
 .logo-bemacadamia-header svg rect {
   fill: white; }
+
+.carousel-inner .item .fill {
+  zoom: 1;
+  filter: alpha(opacity=60);
+  opacity: 0.6; }
+
+#menu-responsive-link span {
+  color: white; }
+
+/*CONTENIDO*/
+.body-contain .contenido {
+  text-align: center;
+  color: white;
+  padding: 13em 0; }
+  .body-contain .contenido p {
+    font-size: 18px;
+    margin: 0px; }
+  .body-contain .contenido h2 {
+    font-size: 48px;
+    margin: 0; }
+  .body-contain .contenido .separator {
+    background-color: white;
+    width: 50px;
+    height: 1px;
+    margin: 20px auto; }
+  .body-contain .contenido .btn {
+    margin-top: 3em; }
+
+/*BOTONES*/
+.btn-default {
+  border-color: white !important;
+  color: white !important; }
 
 /*# sourceMappingURL=index.css.map */
