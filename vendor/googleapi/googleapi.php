@@ -195,9 +195,9 @@ class googleapi
 
         foreach($items->getItems() as $item) {
             $files[] = array(
-                'name' => $item->originalFilename,
+                'name' => $item->title,
                 'thumb' => $item->thumbnailLink,
-                'img' => 'http://googledrive.com/host/' . $key . '/' . $item->originalFilename
+                'img' => 'http://googledrive.com/host/' . $key . '/' . $item->title
             );
         }
 
