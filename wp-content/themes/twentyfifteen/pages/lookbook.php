@@ -13,7 +13,7 @@
  */
 
 $pic = reset(assetsManager::getGdriveImages(16));
-$imagesLink = postHelper::getPreferImagePosts();
+$imagesLink = postHelper::getLookBookImages();
 get_header('bemacadamia'); ?>
 
     <div class="container-fluid body-contain no-padding">

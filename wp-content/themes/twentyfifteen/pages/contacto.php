@@ -25,7 +25,7 @@ $pic = reset(assetsManager::getGdriveImages(12));
                 <p class="play-fair-regular font-gris">be Macadamia</p>
                 <h1 class="play-fair-regular">Contacta con nosotros</h1>
                 <div class="separador-h1"></div>
-                <p class="font-10 source-sans-pro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed velit elit. Aliquam cursus porta libero vel rutrum. Etiam iaculis leo aliquet risus tempor, non ornare lorem semper. Integer bibendum libero elit, et efficitur ligula imperdiet a. Morbi in purus gravida, feugiat tortor eget, laoreet ipsum. Donec fermentum a nunc mattis dapibus. Pellentesque dignissim aliquam nisl sollicitudin gravida. Praesent ac nisl lorem. Etiam arcu nulla, fermentum nec pellentesque porta, scelerisque at felis. Suspendisse sapien mi, malesuada id dignissim a, iaculis at sem. Phasellus sed risus ut ligula interdum lacinia. Aliquam finibus ligula quis consequat blandit.</p>
+                <p class="font-10 source-sans-pro"><?php tokensManager::setText(9) ?></p>
             </div>
 
             <form id="form-contact">

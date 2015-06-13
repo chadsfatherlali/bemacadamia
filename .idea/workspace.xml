@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1ab4f423-1efd-457c-a277-12a529826308" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/google-api-php-client" afterPath="$PROJECT_DIR$/vendor/google-api-php-client" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/contacto.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/contacto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/lookbook.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/lookbook.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/postHelper/postHelper.php" afterPath="$PROJECT_DIR$/wp-content/plugins/postHelper/postHelper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/google-api-php-client/examples/service-account.php" afterPath="$PROJECT_DIR$/vendor/google-api-php-client/examples/service-account.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bemacadamia.iws" />
@@ -56,16 +60,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="375">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="googleapi.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/googleapi/googleapi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="2287" max-vertical-offset="3705">
-              <caret line="165" column="8" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="8" />
+            <state vertical-scroll-proportion="-0.32978722" vertical-offset="3141" max-vertical-offset="3705">
+              <caret line="197" column="38" selection-start-line="197" selection-start-column="33" selection-end-line="197" selection-end-column="38" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
-                <marker date="1434199939000" expanded="true" signature="5988:6053" placeholder="select id fr..wp_gdrive..." />
-                <marker date="1434199939000" expanded="true" signature="6130:6215" placeholder="update wp_gd..." />
-                <marker date="1434199939000" expanded="true" signature="6336:6437" placeholder="insert into ..." />
+                <marker date="1434199956000" expanded="true" signature="5980:6045" placeholder="select id fr..wp_gdrive..." />
+                <marker date="1434199956000" expanded="true" signature="6122:6207" placeholder="update wp_gd..." />
+                <marker date="1434199956000" expanded="true" signature="6328:6429" placeholder="insert into ..." />
               </folding>
             </state>
           </provider>
@@ -162,8 +176,8 @@
       <file leaf-file-name="header-bemacadamia.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75" vertical-offset="300" max-vertical-offset="1380">
-              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+            <state vertical-scroll-proportion="-13.125" vertical-offset="720" max-vertical-offset="1380">
+              <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="86" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -218,8 +232,8 @@
       <file leaf-file-name="lookbook.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/lookbook.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.0" vertical-offset="111" max-vertical-offset="795">
-              <caret line="33" column="14" selection-start-line="24" selection-start-column="8" selection-end-line="33" selection-end-column="14" />
+            <state vertical-scroll-proportion="-18.125" vertical-offset="135" max-vertical-offset="795">
+              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
               <folding>
                 <element signature="e#6#118#0#PHP" expanded="true" />
               </folding>
@@ -306,8 +320,8 @@
       <file leaf-file-name="contacto.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/contacto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="360" max-vertical-offset="1245">
-              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+            <state vertical-scroll-proportion="-10.0" vertical-offset="165" max-vertical-offset="1245">
+              <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
               <folding>
                 <element signature="e#6#118#0#PHP" expanded="true" />
               </folding>
@@ -342,13 +356,14 @@
       <file leaf-file-name="postHelper.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/postHelper/postHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.583334" vertical-offset="1381" max-vertical-offset="1995">
-              <caret line="125" column="18" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
+            <state vertical-scroll-proportion="-24.375" vertical-offset="1665" max-vertical-offset="2370">
+              <caret line="150" column="22" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
               <folding>
                 <element signature="e#6#33#0#PHP" expanded="true" />
-                <marker date="1434060311000" expanded="true" signature="520:628" placeholder="select * fro..wp_posts..." />
-                <marker date="1434060311000" expanded="true" signature="784:915" placeholder="select * fro..wp_posts..." />
-                <marker date="1434060311000" expanded="true" signature="2772:2831" placeholder="select post_..wp_posts..." />
+                <marker date="1434210084000" expanded="true" signature="520:628" placeholder="select * fro..wp_posts..." />
+                <marker date="1434210084000" expanded="true" signature="784:915" placeholder="select * fro..wp_posts..." />
+                <marker date="1434210084000" expanded="true" signature="2772:2831" placeholder="select post_..wp_posts..." />
+                <marker date="1434210084000" expanded="true" signature="3297:3396" placeholder="select * fro..wp_posts..." />
               </folding>
             </state>
           </provider>
@@ -426,7 +441,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/plugins.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.scss" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/postHelper/postHelper.php" />
         <option value="$PROJECT_DIR$/vendor/cart/cart.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/shop.php" />
@@ -435,20 +449,21 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/common.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/lookbook.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/post.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/post.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer-bemacadamia.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/faqs.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/faqs.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/faqs.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/contacto.php" />
         <option value="$PROJECT_DIR$/vendor/pagos/pagos.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" />
         <option value="$PROJECT_DIR$/vendor/pagos/pagos.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php" />
         <option value="$PROJECT_DIR$/vendor/googleapi/googleapi.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/contacto.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/postHelper/postHelper.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/lookbook.php" />
       </list>
     </option>
   </component>
@@ -647,10 +662,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4688742" sideWeight="0.6287554" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -749,14 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.375" vertical-offset="225" max-vertical-offset="885">
           <caret line="43" column="9" selection-start-line="35" selection-start-column="7" selection-end-line="43" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="375">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -893,16 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="300" max-vertical-offset="1380">
-          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="166.54167" vertical-offset="4252" max-vertical-offset="4935">
@@ -921,32 +918,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/contacto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="360" max-vertical-offset="1245">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-          <folding>
-            <element signature="e#6#118#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/faqs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.458334" vertical-offset="511" max-vertical-offset="1230">
           <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
           <folding>
             <element signature="e#6#114#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/lookbook.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.0" vertical-offset="111" max-vertical-offset="795">
-          <caret line="33" column="14" selection-start-line="24" selection-start-column="8" selection-end-line="33" selection-end-column="14" />
-          <folding>
-            <element signature="e#6#118#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1118,19 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/postHelper/postHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.583334" vertical-offset="1381" max-vertical-offset="1995">
-          <caret line="125" column="18" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
-          <folding>
-            <element signature="e#6#33#0#PHP" expanded="true" />
-            <marker date="1434060311000" expanded="true" signature="520:628" placeholder="select * fro..wp_posts..." />
-            <marker date="1434060311000" expanded="true" signature="784:915" placeholder="select * fro..wp_posts..." />
-            <marker date="1434060311000" expanded="true" signature="2772:2831" placeholder="select post_..wp_posts..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/tokensManager/tokensDataRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="7.8333335" vertical-offset="188" max-vertical-offset="825">
@@ -1160,15 +1124,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125" vertical-offset="720" max-vertical-offset="1380">
+          <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="86" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="375">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/contacto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="165" max-vertical-offset="1245">
+          <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+          <folding>
+            <element signature="e#6#118#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/lookbook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.125" vertical-offset="135" max-vertical-offset="795">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding>
+            <element signature="e#6#118#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/postHelper/postHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.375" vertical-offset="1665" max-vertical-offset="2370">
+          <caret line="150" column="22" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+          <folding>
+            <element signature="e#6#33#0#PHP" expanded="true" />
+            <marker date="1434210084000" expanded="true" signature="520:628" placeholder="select * fro..wp_posts..." />
+            <marker date="1434210084000" expanded="true" signature="784:915" placeholder="select * fro..wp_posts..." />
+            <marker date="1434210084000" expanded="true" signature="2772:2831" placeholder="select post_..wp_posts..." />
+            <marker date="1434210084000" expanded="true" signature="3297:3396" placeholder="select * fro..wp_posts..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/googleapi/googleapi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="2287" max-vertical-offset="3705">
-          <caret line="165" column="8" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="8" />
+        <state vertical-scroll-proportion="-0.32978722" vertical-offset="3141" max-vertical-offset="3705">
+          <caret line="197" column="38" selection-start-line="197" selection-start-column="33" selection-end-line="197" selection-end-column="38" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1434199939000" expanded="true" signature="5988:6053" placeholder="select id fr..wp_gdrive..." />
-            <marker date="1434199939000" expanded="true" signature="6130:6215" placeholder="update wp_gd..." />
-            <marker date="1434199939000" expanded="true" signature="6336:6437" placeholder="insert into ..." />
+            <marker date="1434199956000" expanded="true" signature="5980:6045" placeholder="select id fr..wp_gdrive..." />
+            <marker date="1434199956000" expanded="true" signature="6122:6207" placeholder="update wp_gd..." />
+            <marker date="1434199956000" expanded="true" signature="6328:6429" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>

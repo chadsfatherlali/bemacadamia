@@ -125,4 +125,29 @@ class postHelper {
 
         echo $img;
     }
+
+    public function getLookBookImages()
+    {
+        global $wpdb;
+
+        $array = array();
+
+        $results = $wpdb->get_results("select *
+        from wp_posts
+        where post_status = 'publish'
+        and post_type = 'post'", "ARRAY_A");
+
+        foreach($results as $k => $v) {
+            $custom = get_post_custom($v['ID']);
+
+            if($custom['wpcf-img-lookbook']) {
+                $array[] = array(
+                    'img' => self::CONST_GDRIVE_PATH . $custom['wpcf-gdrive'][0] . '/' . $custom['wpcf-img-lookbook'][0],
+                    'link' =>'/' .  $v['post_name']
+                );
+            }
+        }
+
+        return $array;
+    }
 }
