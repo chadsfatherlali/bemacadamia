@@ -21,6 +21,8 @@ class googleapi
     const CONST_CLIENT_SECRET = 'vmVoHH5OkUiY_THYsQQA14uB';
     /** Punto de entrada del API */
     const CONST_REDIRECT_URI = 'http://bemacadamia.cdxperience.com/vendor/googleapi/googleapi.php';
+    /** Punto de entrada del API de produccion */
+    const CONST_REDIRECT_URI_PROD = 'http://www.bemacadamia.com/vendor/googleapi/googleapi.php';
     /** @var array Scopes del APi */
     static $scopes = array('https://www.googleapis.com/auth/drive');
     /** @var  Array con las rutas devueltas por Gdrvie */
@@ -38,7 +40,13 @@ class googleapi
 
         $client->setClientId(self::CONST_CLIENT_ID);
         $client->setClientSecret(self::CONST_CLIENT_SECRET);
-        $client->setRedirectUri(self::CONST_REDIRECT_URI);
+        if(strpos($_SERVER['SERVER_NAME'], 'cdxperience') !== false) {
+            $client->setRedirectUri(self::CONST_REDIRECT_URI);
+        }
+
+        else {
+            $client->setRedirectUri(self::CONST_REDIRECT_URI_PROD);
+        }
         $client->setScopes(self::$scopes);
         $client->setAccessType('offline');
 
