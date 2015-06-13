@@ -17,6 +17,7 @@ assetsManager::__obStart();
     <!--[if lt IE 9]>
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
     <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Playfair+Display' rel='stylesheet' type='text/css'>
     <?php wp_head(); ?>
     <script>
         var host = "<?php $_SERVER['SERVER_NAME'] ?>";
@@ -60,7 +61,7 @@ assetsManager::__obStart();
             <div class="container-fluid no-padding">
                 <div class="row">
                     <div class="col-xs-5">
-                        <button href="#" id="menu-responsive-link" class="btn btn-lg visible-xs-block visible-sm-block"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+                        <button href="/" id="menu-responsive-link" class="btn btn-lg visible-xs-block visible-sm-block"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
 
                         <ul class="nav navbar-nav visible-md-block visible-lg-block">
                             <li><a href="/"><?php tokensManager::setText(1) ?></a></li>
@@ -71,12 +72,12 @@ assetsManager::__obStart();
                         </ul>
                     </div>
 
-                    <div class="col-xs-3 txt-center logo-bemacadamia-header visible-md-block visible-lg-block">
+                    <div class="logo-bemacadamia-header">
                         <!-- <a href="#"><img class="w-200" src="<?php echo assetsManager::getPathImages('logos', 'Logo_black.svg') ?>" /></a> -->
-                        <a href="#"><?php echo assetsManager::getSvgImages('logos', 'Logo_black') ?></a>
+                        <a href="/"><?php echo assetsManager::getSvgImages('logos', 'Logo_black') ?></a>
                     </div>
 
-                    <div class="col-ms-5 f-right txt-right">
+                    <div class="col-xs-5 f-right txt-right">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="javascript:void(0)" class="cesta-compra-header" id="ir-a-cesta"><span id="total-cesta-prodcutos"><?php cart::getTotalItems() ?></span> Items <?php echo assetsManager::getSvgImages('logos', 'CestaCompra') ?></a></li>
                         </ul>
