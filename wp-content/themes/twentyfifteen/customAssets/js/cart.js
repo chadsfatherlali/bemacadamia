@@ -6,7 +6,7 @@
     {
         calculatePrecios();
         function calculatePrecios() {
-            var incremento = 5;
+            var incremento = 4;
             var precios = $('.precios');
             var total = 0;
 

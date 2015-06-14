@@ -24,8 +24,8 @@
         },
         messages: {
             tel: {
-                number: 'Please only numbers',
-                minlength: 'Please enter at least 9 characters.'
+                number: 'Este cmapo solo adminte números.',
+                minlength: 'Por favor introduzaca 9 número como míØnimo.'
             }
         }
 
