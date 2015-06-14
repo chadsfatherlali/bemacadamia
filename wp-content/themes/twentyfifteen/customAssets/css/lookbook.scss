@@ -17,11 +17,20 @@
         margin: 20px auto;
     }
 }
-.Collage {
-    div {
-        a {
-            img {
-                width: 100%;
+.collage {
+    ul{
+        .collage-row{
+            overflow: hidden;
+            li {
+                list-style-type: none;
+                display: block;
+                float: left;
+                width: 50%;
+                a {
+                    img {
+                        width: 100%;
+                    }
+                }
             }
         }
     }
