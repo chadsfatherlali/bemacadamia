@@ -18,7 +18,13 @@ define('WP_SITEURL','http://' . $_SERVER['HTTP_HOST']);
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wp_bemacadamia');
+if(strpos($_SERVER['SERVER_NAME'], 'cdxperience.com') !== false) {
+    define('DB_NAME', 'wp_bemacadamia');
+}
+
+else {
+    define('DB_NAME', 'db580150839');
+}
 
 /** MySQL database username */
 define('DB_USER', 'root');
