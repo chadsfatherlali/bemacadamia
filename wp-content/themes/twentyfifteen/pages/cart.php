@@ -228,7 +228,7 @@ get_header('bemacadamia');?>
                         <span class="font-12 float-left source-sans-pro">Subtotal</span><spa class="font-16 float-right play-fair-regular" id="sub-total">0€</spa>
                     </div>
                     <div class="col-xs-11 no-padding-left">
-                        <span class="font-12 float-left source-sans-pro">Gastos Envío</span><spa class="font-16 float-right play-fair-regular">5€</spa>
+                        <span class="font-12 float-left source-sans-pro">Gastos Envío</span><spa class="font-16 float-right play-fair-regular">4€</spa>
                     </div>
                     <div class="col-xs-11 no-padding-left">
                         <span class="font-12 float-left source-sans-pro">Total</span><spa class="font-16 float-right play-fair-regular" id="full-total">0€</spa>

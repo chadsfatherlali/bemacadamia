@@ -73,7 +73,7 @@ class pagos
         }
 
         $prod .= '<tr></tr><td></td><td></td><td></td><td></td><td><strong>Subtotal</strong></td><td>' . $total . '€</td></tr>';
-        $prod .= '<tr></tr><td></td><td></td><td></td><td></td><td><strong>Envio</strong></td><td>5€</td></tr>';
+        $prod .= '<tr></tr><td></td><td></td><td></td><td></td><td><strong>Envio</strong></td><td>4€</td></tr>';
         $prod .= '<tr></tr><td></td><td></td><td></td><td></td><td><strong>Total</strong></td><td>' . ($total + 5) . '€</td></tr>';
         $html = str_replace('{{ table }}', $prod, $html);
         return $html;die;

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ab4f423-1efd-457c-a277-12a529826308" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/google-api-php-client" afterPath="$PROJECT_DIR$/vendor/google-api-php-client" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/contacto.js" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/contacto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/pagos/pagos.html" afterPath="$PROJECT_DIR$/vendor/pagos/pagos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/pagos/pagos.php" afterPath="$PROJECT_DIR$/vendor/pagos/pagos.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bemacadamia.iws" />
@@ -135,12 +134,12 @@
       <file leaf-file-name="pagos.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="1530">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+            <state vertical-scroll-proportion="-43.75" vertical-offset="0" max-vertical-offset="1530">
+              <caret line="75" column="99" selection-start-line="75" selection-start-column="99" selection-end-line="75" selection-end-column="99" />
               <folding>
-                <marker date="1434162616000" expanded="true" signature="1930:2010" placeholder="..." />
-                <marker date="1434162616000" expanded="true" signature="2734:2792" placeholder="select * fro..wp_cart..." />
-                <marker date="1434162616000" expanded="true" signature="2972:3070" placeholder="select post_..wp_posts..." />
+                <marker date="1434312927000" expanded="true" signature="1930:2010" placeholder="..." />
+                <marker date="1434312927000" expanded="true" signature="2734:2792" placeholder="select * fro..wp_cart..." />
+                <marker date="1434312927000" expanded="true" signature="2972:3070" placeholder="select post_..wp_posts..." />
               </folding>
             </state>
           </provider>
@@ -260,14 +259,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cart.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3075">
-              <caret line="178" column="24" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#45#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-3.708202" vertical-offset="2471" max-vertical-offset="3105">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -373,8 +370,8 @@
       <file leaf-file-name="cart.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0833335" vertical-offset="4237" max-vertical-offset="4965">
-              <caret line="289" column="53" selection-start-line="289" selection-start-column="53" selection-end-line="289" selection-end-column="53" />
+            <state vertical-scroll-proportion="-7.8039217" vertical-offset="3052" max-vertical-offset="4965">
+              <caret line="230" column="144" selection-start-line="230" selection-start-column="144" selection-end-line="230" selection-end-column="144" />
               <folding>
                 <element signature="e#6#114#0#PHP" expanded="true" />
               </folding>
@@ -382,10 +379,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pagos.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pagos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25902668" vertical-offset="0" max-vertical-offset="990">
+            <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="990">
               <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding />
             </state>
@@ -530,14 +527,12 @@
         <option value="$PROJECT_DIR$/vendor/pagos/plantilla.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/common.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/post.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/post.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer-bemacadamia.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/faqs.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/faqs.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/faqs.php" />
-        <option value="$PROJECT_DIR$/vendor/pagos/pagos.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php" />
         <option value="$PROJECT_DIR$/vendor/googleapi/googleapi.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" />
@@ -547,8 +542,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/lookbook.php" />
         <option value="$PROJECT_DIR$/sss.txt" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/contacto.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php" />
         <option value="$PROJECT_DIR$/vendor/pagos/pagos.html" />
+        <option value="$PROJECT_DIR$/vendor/pagos/pagos.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js" />
       </list>
     </option>
   </component>
@@ -986,18 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="1530">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <marker date="1434162616000" expanded="true" signature="1930:2010" placeholder="..." />
-            <marker date="1434162616000" expanded="true" signature="2734:2792" placeholder="select * fro..wp_cart..." />
-            <marker date="1434162616000" expanded="true" signature="2972:3070" placeholder="select post_..wp_posts..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/wpdbobject/wpdbobject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="375">
@@ -1271,16 +1256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2272" max-vertical-offset="3075">
-          <caret line="178" column="24" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/lookbook.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
@@ -1307,20 +1282,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="990">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-43.75" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="75" column="99" selection-start-line="75" selection-start-column="99" selection-end-line="75" selection-end-column="99" />
+          <folding>
+            <marker date="1434312927000" expanded="true" signature="1930:2010" placeholder="..." />
+            <marker date="1434312927000" expanded="true" signature="2734:2792" placeholder="select * fro..wp_cart..." />
+            <marker date="1434312927000" expanded="true" signature="2972:3070" placeholder="select post_..wp_posts..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0833335" vertical-offset="4237" max-vertical-offset="4965">
-          <caret line="289" column="53" selection-start-line="289" selection-start-column="53" selection-end-line="289" selection-end-column="53" />
+        <state vertical-scroll-proportion="-7.8039217" vertical-offset="3052" max-vertical-offset="4965">
+          <caret line="230" column="144" selection-start-line="230" selection-start-column="144" selection-end-line="230" selection-end-column="144" />
           <folding>
             <element signature="e#6#114#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.html">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25902668" vertical-offset="0" max-vertical-offset="990">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state vertical-scroll-proportion="-3.708202" vertical-offset="2471" max-vertical-offset="3105">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding />
         </state>
       </provider>
