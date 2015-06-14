@@ -1735,12 +1735,43 @@ if (typeof Object.create !== "function") {
     $('.item').on('click', function(e) {
         $this = $(this);
 
+        $('.item').removeClass('active');
+        $(e.currentTarget).addClass('active');
+
         var img = $this.attr('data-img');
         var pos = $this.attr('data-position');
 
         $('#position').html(pos);
         $('#img-full').css('backgroundImage', 'url("' + img + '")');
     });
+
+
+    $('#sizes li').on('click', function(e){
+        $this = $(this);
+        if (!$this.hasClass('disabled')) {
+            $('#sizes li').removeClass('active');
+            $(e.currentTarget).addClass('active');
+
+            var talla = $this.data('size');
+            $('#talla').val(talla);
+        };
+
+
+    });
+
+    $('#colors li').on('click', function(e){
+        $this = $(this);
+
+        $('#colors li').removeClass('active');
+        $(e.currentTarget).addClass('active');
+
+        var color = $this.data('color');
+        $('#color').val(color);
+
+    });
+
+
+
 
     $('#gallery-nav-right').click(function() {
         owl.trigger('owl.next');
@@ -1750,9 +1781,37 @@ if (typeof Object.create !== "function") {
         owl.trigger('owl.prev');
     })
 
-    $('.input-stepper').inputStepper();
+    $('.input-stepper').inputStepper({
+        selectorButtonIncrease: '.increase',
+        selectorButtonDecrease: '.decrease',        
+    });
+
+    // INITS
+    $('.item').first().trigger('click');
+    $('#colors li').first().trigger('click');
+    setSize();
 
 
+    function setSize(){
+        var tallasObj = $('#sizes').data('tallas');
+        var tallasArr = [];
+        for (var i in tallasObj){
+            tallasArr.push(tallasObj[i]);
+        }
+        $('#sizes li').each(function(k,v){
+            var size = $(v).data('size').toUpperCase();
+            var active = (tallasArr.length === 1) ? true : false;
+            if (tallasArr.indexOf(size) == -1) {
+                $(v).addClass('disabled');
+            }else{
+                if (active) {
+                    $(v).addClass('active');
+                }
+            }
+        });
+
+
+    }
 
 
     /* FORM */

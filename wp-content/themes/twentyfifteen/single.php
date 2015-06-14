@@ -37,68 +37,51 @@ get_header('bemacadamia'); ?>
 
             <div class="col-md-8">
                 <div class="col-lg-12 conten-form">
-                    <p class="play-fair-regular txt-gris txt-gris">Smart casual collection</p>
-                    <h2 class="play-fair-regular">Walk on by</h2>
+                    <h2 class="play-fair-regular"><?php echo $post['post'][0]['post_title'] ?></h2>
 
                     <div class="separator"></div>
 
-                    <p class="source-sans-pro font-12"><?php echo $post['post'][0]['post_content'] ?></p>
+                    <p class="source-sans-pro font-14"><?php echo $post['post'][0]['post_content'] ?></p>
 
                     <form id="form-compra">
-                        <div class="form-group col-xs-12" id="sizes">
-                            <div class="col-xs-3">
-                                <span class="float-left margin-right-1 labels-radios">Tallas</span>
-                            </div>
-
-                            <div class="col-xs-4">
-                                <?php foreach($post['custom']['wpcf-tallas'][0] as $key => $size) { ?>
-                                    <div class="float-left input-content">
-                                        <input type="radio" id="radio-<?php echo $key ?>" name="talla" value="<?php echo $size ?>" />
-                                        <label for="radio-<?php echo $key ?>"><span><?php echo $size ?></span></label>
-                                    </div>
-                                <?php } ?>
-                            </div>
-                            <div class="col-xs-4">
-                                <span class="float-left labels-radios margin-left-05">Única</span>
-                            </div>
-                        </div>
-
-                        <div class="form-group col-xs-12" id="quantities">
-                            <div class="col-xs-3">
-                                <span class="float-left margin-right-1 labels-radios">Cantidad</span>
-                            </div>
-
-                            <div class="col-xs-9">
-                                <div class="input-stepper floa-letf">
-                                    <a class="button-quantitie" href="javascript:void(0)" data-input-stepper-decrease>-</a>
-                                        <input name="cantidad" id="cantidad" class="txt-center" type="text" />
-                                    <a class="button-quantitie" href="javascript:void(0)" data-input-stepper-increase>+</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form-group col-xs-12" id="colors">
-                            <div class="col-xs-3">
-                                <span class="float-left margin-right-1 labels-radios">Colores</span>
-                            </div>
-
-                            <div class="col-xs-9">
-                                <?php foreach($post['custom']['wpcf-colores_producto'] as $key => $color) { ?>
-                                    <div class="float-left input-content">
-                                        <input type="radio" id="radio-<?php echo $key ?>" name="color" value="<?php echo $color ?>" />
-                                        <label for="radio-<?php echo $key ?>"><span style="background-color: <?php echo $color ?>">&nbsp;</span></label>
-                                    </div>
-                                <?php } ?>
-                            </div>
-                        </div>
+                        <input type="hidden" name="color" id="color" value="<?php echo $color ?>" />
+                        <input type="hidden" id="talla" name="talla" value="<?php echo $size ?>" />
                         <input type="hidden" name="producto" id="producto" value="<?php echo $post['post'][0]['ID'] ?>" />
                         <input type="hidden" name="precio" id="precio" value="<?php echo $post['custom']['wpcf-precio'][0] ?>" />
-
-                        <div class="botonera">
-                            <div class="col-sm-6">
-                                <input type="submit" id="sentToCart" class="btn btn-default" value="Añadir" />
-                            </div>
-                            <div class="col-sm-6 col-xs-4 font-24 play-fair-regular"><?php echo $post['custom']['wpcf-precio'][0] ?> €</div>
+                        <ul class="form-ul">
+                            <li>
+                                <h4>Tallas</h4>
+                                <ul class="form-interactive form-sizes" id="sizes" data-tallas='<?= json_encode($post['custom']['wpcf-tallas'][0]) ?>'>
+                                    <li data-size="XS">XS</li>
+                                    <li data-size="S">S</li>
+                                    <li data-size="M">M</li>
+                                    <li data-size="XL">XL</li>
+                                    <li data-size="U">U</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4>Cantidad</h4>
+                                <div id="quantity" class="form-interactive form-quantity input-stepper" >
+                                    <a class="button-quantitie decrease" href="javascript:void(0)" data-input-stepper-decrease>-</a>
+                                    <input name="cantidad" id="cantidad" type="number" value="1" min="1" max="100" />
+                                    <a class="button-quantitie increase" href="javascript:void(0)" data-input-stepper-increase>+</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>Colors</h4>
+                                <ul class="form-interactive form-colors" id="colors">
+                                    <?php foreach($post['custom']['wpcf-colores_producto'] as $key => $color) { ?>
+                                        <li data-color="<?php echo $color ?>" style="background-color: <?php echo $color ?>; box-shadow: 0 0 0 0px <?php echo $color ?>;"></li>
+                                    <?php } ?>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="form-footer">
+                                    <button type="submit" id="sentToCart" class="btn btn-default" />Añadir</button>
+                                    <div class="price play-fair-regular"><?php echo $post['custom']['wpcf-precio'][0] ?> €</div>
+                                </div>
+                            </li>
+                        </ul>
                         </div>
                     </form>
                 </div>
