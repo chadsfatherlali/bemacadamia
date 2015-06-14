@@ -527,9 +527,9 @@ $gris: #949494;
                 opacity: 0.75;
                 cursor: pointer;
                 transition: all 0.25s ease-in-out;
-                &:hover{ opacity: 1; }
-                &.disabled{ opacity: 0.25; cursor: default; &:hover{ opacity: 0.25;}}
-                &.active{ opacity: 1; box-shadow: 0 0 0 1px #000; background: #000; color: white;}
+
+                &.disabled{ opacity: 0.25; cursor: default; &:hover{ opacity: 0.25; box-shadow: 0 0 0 1px #000; background: none; color: $gris;}}
+                &:hover,&.active{ opacity: 1; box-shadow: 0 0 0 1px #000; background: #000; color: white;}
             }
         }
         .form-quantity{
