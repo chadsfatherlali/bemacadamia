@@ -13,7 +13,22 @@
  */
 
 $pic = reset(assetsManager::getGdriveImages(16));
-$imagesLink = assetsManager::getGdriveImages(16);
+//$imagesLink = assetsManager::getGdriveImages(16);
+
+$imagesLink = array(
+    array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/1.jpg'),
+    array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/2.jpg'),
+    array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/3.jpg'),
+    array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/4.jpg'),
+    array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/5.jpg'),
+    array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/6.jpg'),
+    array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/7.jpg'),
+    array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/8.jpg'),
+    array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/9.jpg'),
+    array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/10.jpg'),
+
+);
+
 get_header('bemacadamia'); ?>
 
     <div class="container-fluid body-contain no-padding">
@@ -36,7 +51,7 @@ get_header('bemacadamia'); ?>
         <div class="Collage">
             <?php foreach($imagesLink as $el) { ?>
                 <div class="col-md-6 no-padding">
-                    <a href="<?php echo $el['link'] ?>">
+                    <a href="javascript:void(0)">
                         <img src="<?php echo $el['img'] ?>" />
                     </a>
                 </div>
