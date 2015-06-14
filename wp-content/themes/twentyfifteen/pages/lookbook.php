@@ -48,14 +48,26 @@ get_header('bemacadamia'); ?>
             <a href="/shop" class="btn btn-default">Shop now</a>
         </div>
 
-        <div class="Collage">
-            <?php foreach($imagesLink as $el) { ?>
-                <div class="col-md-6 no-padding">
-                    <a href="javascript:void(0)">
-                        <img src="<?php echo $el['img'] ?>" />
-                    </a>
-                </div>
-            <?php } ?>
+        <div class="collage">
+            <ul>
+                <?php
+                    $imagesLength = count($imagesLink);
+                ?>
+                <?php foreach($imagesLink as $key => $el) { ?>
+                    <? if($key%3 == 0 && $key != 0){ ?>
+                    </div>
+                    <? } ?>
+                    <? if($key%3 == 0 && ($key != $imagesLength)) { ?>
+                    <div class="collage-row">
+                    <? } ?>
+                        <li>
+                            <a href="<?php echo $el['link'] ?>">
+                                <img src="<?php echo $el['img'] ?>" />
+                            </a>
+                        </li>
+
+                <?php } ?>
+            </ul>
         </div>
 
     </div>
