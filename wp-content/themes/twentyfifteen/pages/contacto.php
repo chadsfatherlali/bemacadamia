@@ -16,7 +16,7 @@ $pic = reset(assetsManager::getGdriveImages(12));
 ?>
 
     <div class="container-fluid body-contain no-padding">
-        <div class="col-md-4 img-contacto-left visible-md-block visible-lg-block no-padding">
+        <div class="col-md-6 img-contacto-left visible-md-block visible-lg-block no-padding">
             <img src="<?php echo $pic['img'] ?>" />
         </div>
 

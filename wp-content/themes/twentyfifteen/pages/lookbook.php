@@ -40,13 +40,13 @@ get_header('bemacadamia'); ?>
 
 
         <div class="contenido txt-center">
-            <p class="play-fair-regular">Smart casual collection</p>
-            <h2 class="play-fair-regular">Walk on by</h2>
+            <p class="play-fair-regular">Be Macadamia</p>
+            <h2 class="play-fair-regular">About us</h2>
 
             <div class="separator"></div>
 
-            <p class="source-sans-pro font-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed velit elit. Aliquam cursus porta libero vel rutrum.</p>
-            <p class="source-sans-pro font-12">Etiam iaculis leo aliquet risus tempor, non ornare lorem semper.</p>
+            <p class="source-sans-pro font-14">Macadamia disfruta de la vida, y lo hace sin mirar el reloj. Es alegre, creativa, aventurera. Con espíritu joven. No tiene edad, porque sabe que los años los marcan las experiencias vividas; pero no pierde la inocencia, y se sorprende con cada detalle de su día día.</p>
+            <p class="source-sans-pro font-14">Para ella diseñamos, compramos, y viajamos por todo el mundo buscando ese vestido, esa camisa, que la acompañe en su búsqueda de la sencillez y las pequeñas cosas… ¿Eres Macadamia?</p>
             <a href="/shop" class="btn btn-default">Shop now</a>
         </div>
 
