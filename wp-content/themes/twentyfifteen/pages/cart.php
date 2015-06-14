@@ -284,8 +284,10 @@ get_header('bemacadamia');?>
                     <p><strong>El método de pago es el siguiente:</strong></p>
                         <ul>
                             <li>
-                                1) A través de transferencia bancaria al siguiente número de cuenta: xxxx.
+                                <strong>1)</strong> A través de transferencia bancaria al siguiente número de cuenta: 0065-0103-55-0001039330.
                                 Una vez nos hagas llegar el justificante de la transferencia, tramitaremos tu pedido y te llegara en un plazo de 24/48horas.
+                                En "concepto" debes especificar tu nombre y apellidos.
+                                Beneficiario: Marina.
                             </li>
                             <li>
                                 2) A contra reembolso, lo cual lleva aparejado un gasto extra pues la empresa de transportes tiene que volver a remitirnos el importe del pedido.
