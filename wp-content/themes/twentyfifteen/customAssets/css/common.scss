@@ -157,7 +157,9 @@ input[type=number]::-webkit-outer-spin-button {
     
     padding-right: 30px !important;
     margin: 0 15px 0 0;
-
+    &:after{
+        display: none !important;
+    }
     svg {
         position: absolute;
         top: 50%;
