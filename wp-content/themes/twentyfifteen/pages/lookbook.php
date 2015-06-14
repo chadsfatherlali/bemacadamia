@@ -26,6 +26,8 @@ $imagesLink = array(
     array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/8.jpg'),
     array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/9.jpg'),
     array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/10.jpg'),
+    array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/11.jpg'),
+    array('img' => 'http://googledrive.com/host/0B6cc8HdeC7MqfmJ5WEF0c2JsYnVXTGxwazlqcG9ETDVBNlg4YmlZSDUxZmlScGFhWndIQ3c/12.jpg'),
 
 );
 
@@ -33,7 +35,7 @@ get_header('bemacadamia'); ?>
 
     <div class="container-fluid body-contain no-padding">
         <div class="hero">
-            <img src="<?php echo $pic['img'] ?>" />
+            <img src="https://91ef1e9c9a36732319c01a3759607760e0fc2656.googledrive.com/host/0B6cc8HdeC7MqfnkydHlhSFZlbWxzX3hWSk1WdGtjTkFYZ1dEc1BmVmJOVlhvb0VxNkF2ZTQ/MACADAMIA_PREVIEW.jpg" />
         </div>
 
 
@@ -50,23 +52,42 @@ get_header('bemacadamia'); ?>
 
         <div class="collage">
             <ul>
-                <?php
-                    $imagesLength = count($imagesLink);
-                ?>
-                <?php foreach($imagesLink as $key => $el) { ?>
-                    <? if($key%3 == 0 && $key != 0){ ?>
+                <div class="collage-row">
+                    <div class="col2">
+                        <li><img src="<?php echo $imagesLink[0]['img'] ?>"></li>
+                        <li><img src="<?php echo $imagesLink[1]['img'] ?>"></li>
                     </div>
-                    <? } ?>
-                    <? if($key%3 == 0 && ($key != $imagesLength)) { ?>
-                    <div class="collage-row">
-                    <? } ?>
-                        <li>
-                            <a href="<?php echo $el['link'] ?>">
-                                <img src="<?php echo $el['img'] ?>" />
-                            </a>
-                        </li>
-
-                <?php } ?>
+                    <div class="col1">
+                        <li><img src="<?php echo $imagesLink[2]['img'] ?>"></li>
+                    </div>
+                </div>
+                <div class="collage-row">
+                    <div class="col1">
+                        <li><img src="<?php echo $imagesLink[3]['img'] ?>"></li>
+                    </div>
+                    <div class="col2">
+                        <li><img src="<?php echo $imagesLink[4]['img'] ?>"></li>
+                        <li><img src="<?php echo $imagesLink[5]['img'] ?>"></li>
+                    </div>
+                </div>
+                <div class="collage-row">
+                    <div class="col2">
+                        <li><img src="<?php echo $imagesLink[6]['img'] ?>"></li>
+                        <li><img src="<?php echo $imagesLink[7]['img'] ?>"></li>
+                    </div>
+                    <div class="col1">
+                        <li><img src="<?php echo $imagesLink[8]['img'] ?>"></li>
+                    </div>
+                </div>
+                <div class="collage-row">
+                    <div class="col1">
+                        <li><img src="<?php echo $imagesLink[9]['img'] ?>"></li>
+                    </div>
+                    <div class="col2">
+                        <li><img src="<?php echo $imagesLink[10]['img'] ?>"></li>
+                        <li><img src="<?php echo $imagesLink[11]['img'] ?>"></li>
+                    </div>
+                </div>
             </ul>
         </div>
 
