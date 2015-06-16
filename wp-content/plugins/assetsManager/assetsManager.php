@@ -45,9 +45,9 @@ class assetsManager
             global $wp_query;
 
             $this->pageName = $wp_query->query['pagename'];
-            $this->pathAssets = __DIR__ . '/../../../wp-content/themes/twentyfifteen/customAssets/';
-            $this->MinCss();
-            $this->MinJs();
+            //$this->pathAssets = __DIR__ . '/../../../wp-content/themes/twentyfifteen/customAssets/';
+            //$this->MinCss();
+            //$this->MinJs();
             $this->setAssetsToHeader();
         });
     }
@@ -91,8 +91,12 @@ class assetsManager
      */
     private function setAssetsToHeader()
     {
-        $assetsCss = '<link rel=\'stylesheet\' href=\'/wp-content/themes/twentyfifteen/customAssets/css/common.min.css\'/>';
-        $assetsJs = '<script src=\'/wp-content/themes/twentyfifteen/customAssets/js/common.min.js\'></script>';
+
+        $pageName = $this->pageName? $this->pageName : 'index';
+        $pageName = is_single()? 'post' : $pageName;
+
+        $assetsCss = '<link rel=\'stylesheet\' href=\'/wp-content/themes/twentyfifteen/customAssets/css/' . $pageName . '.css\'/>';
+        $assetsJs = '<script src=\'/wp-content/themes/twentyfifteen/customAssets/js/' . $pageName . '.js\'></script>';
 
         add_action('wp_head', function() use($assetsCss) {
             echo $assetsCss;

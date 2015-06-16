@@ -19,19 +19,26 @@ define('WP_SITEURL','http://' . $_SERVER['HTTP_HOST']);
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 if(strpos($_SERVER['SERVER_NAME'], 'cdxperience.com') !== false) {
+    define('DB_HOST', 'localhost');
     define('DB_NAME', 'wp_bemacadamia');
     define('DB_USER', 'root');
     define('DB_PASSWORD', '1715anni');
 }
 
 else {
-    define('DB_NAME', 'db580150839');
-    define('DB_USER', 'beMacadamia');
-    define('DB_PASSWORD', 'beMacadamia2015');
-}
+    define('DB_HOST', 'localhost');
+    define('DB_NAME', 'wp_bemacadamia');
+    define('DB_USER', 'root');
+    define('DB_PASSWORD', '1715anni');
+    //$host_name  = "db580150839.db.1and1.com";
+    //$database   = "db580150839";
+    //$user_name  = "dbo580150839";
 
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
+    /*define('DB_HOST', 'db580150839.db.1and1.com');
+    define('DB_NAME', 'db580150839');
+    define('DB_USER', 'dbo580150839');
+    define('DB_PASSWORD', 'beMacadamia2015');*/
+}
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

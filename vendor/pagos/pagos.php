@@ -13,7 +13,6 @@ class pagos
     public function __construct($get)
     {
         $cart = $this->getCart($get['hash']);
-
         $mail = new PHPMailer();
 
         $mail->isSMTP();
@@ -74,9 +73,10 @@ class pagos
 
         $prod .= '<tr></tr><td></td><td></td><td></td><td></td><td><strong>Subtotal</strong></td><td>' . $total . '€</td></tr>';
         $prod .= '<tr></tr><td></td><td></td><td></td><td></td><td><strong>Envio</strong></td><td>4€</td></tr>';
-        $prod .= '<tr></tr><td></td><td></td><td></td><td></td><td><strong>Total</strong></td><td>' . ($total + 5) . '€</td></tr>';
+        $prod .= '<tr></tr><td></td><td></td><td></td><td></td><td><strong>Total</strong></td><td>' . ($total + 4) . '€</td></tr>';
         $html = str_replace('{{ table }}', $prod, $html);
-        return $html;die;
+
+        return $html;
     }
 
     private function getCart($hash)

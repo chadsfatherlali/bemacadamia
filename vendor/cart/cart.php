@@ -14,8 +14,10 @@ class cart
 
     public function __construct($request)
     {
-        $this->wpdb = wpdbobject::getwpdobject();
-        call_user_func(array($this, $request['accion']), $request);
+        if(isset($request['accion'])) {
+            $this->wpdb = wpdbobject::getwpdobject();
+            call_user_func(array($this, $request['accion']), $request);
+        }
     }
 
     public static function getItems($hash)
@@ -44,12 +46,14 @@ class cart
             from wp_cart
             where hash = '$hash'", "ARRAY_A");
 
-            $array = json_decode($cart[0][json], true);
-            $total = 0;
+            if($cart) {
+                $array = json_decode($cart[0][json], true);
+                $total = 0;
 
-            foreach($array as $item) {
+                foreach ($array as $item) {
 
-                $total = $total + $item['cantidad'];
+                    $total = $total + $item['cantidad'];
+                }
             }
         }
 

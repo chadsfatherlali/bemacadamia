@@ -25,7 +25,10 @@
     </div>
 </footer>
 
+<script src="/wp-content/themes/twentyfifteen/customAssets/js/plugins.js"></script>
+<script src="/wp-content/themes/twentyfifteen/customAssets/js/bootstrap.js"></script>
+<script src="/wp-content/themes/twentyfifteen/customAssets/js/common.js"></script>
+
 <?php wp_footer(); ?>
 </body>
 </html>
-<?php assetsManager::__obEnd() ?>

@@ -11,6 +11,7 @@ class wpdbobject
     public static function getwpdobject() {
         $name = explode(".", $_SERVER["HTTP_HOST"]);
         $name = $_SERVER["DOCUMENT_ROOT"] . "/" . $name[0] . "/wp-load.php";
+        $name = dirname(__FILE__) . "/../../wp-load.php";
         include_once($name);
 
         global $wpdb;

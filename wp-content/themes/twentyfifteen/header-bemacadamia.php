@@ -1,5 +1,5 @@
 <?php
-assetsManager::__obStart();
+//assetsManager::__obStart();
 /**
  * Created by PhpStorm.
  * User: chadsfather
@@ -18,11 +18,20 @@ assetsManager::__obStart();
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
     <![endif]-->
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Playfair+Display' rel='stylesheet' type='text/css'>
+
+    <link href="/wp-content/themes/twentyfifteen/customAssets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/wp-content/themes/twentyfifteen/customAssets/css/common.css" rel="stylesheet" type="text/css">
+
     <?php wp_head(); ?>
     <script>
         var host = "<?php $_SERVER['SERVER_NAME'] ?>";
     </script>
-    <?php $pics = assetsManager::getGdriveImages(5); ?>
+
+    <?php
+        if(is_home()) {
+            $pics = assetsManager::getGdriveImages(5);
+        }
+    ?>
 </head>
 <body <?php body_class(); ?>>
 
