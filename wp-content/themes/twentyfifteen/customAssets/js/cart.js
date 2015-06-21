@@ -178,7 +178,7 @@
 
                         setTimeout(function() {
                             window.top.location = '/';
-                        }, 3000);
+                        }, 5000);
                     }
                     else {
                         alert('Se ha producido un error.');

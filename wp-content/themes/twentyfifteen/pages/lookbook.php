@@ -47,7 +47,7 @@ get_header('bemacadamia'); ?>
 
             <p class="source-sans-pro font-14">Macadamia disfruta de la vida, y lo hace sin mirar el reloj. Es alegre, creativa, aventurera. Con espíritu joven. No tiene edad, porque sabe que los años los marcan las experiencias vividas; pero no pierde la inocencia, y se sorprende con cada detalle de su día día.</p>
             <p class="source-sans-pro font-14">Para ella diseñamos, compramos, y viajamos por todo el mundo buscando ese vestido, esa camisa, que la acompañe en su búsqueda de la sencillez y las pequeñas cosas… ¿Eres Macadamia?</p>
-            <a href="/shop" class="btn btn-default">Shop now</a>
+            <a href="/shop" class="btn btn-default"><?php tokensManager::setText(15) ?></a>
         </div>
 
         <div class="collage">

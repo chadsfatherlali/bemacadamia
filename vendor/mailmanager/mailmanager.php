@@ -18,10 +18,12 @@ class mailmanager
         $mail = new PHPMailer();
 
         $mail->isSMTP();
-        $mail->Host = 'tls://smtp.gmail.com:587';
+        $mail->SMTPSecure = 'tsl';
+        $mail->Host = 'smtp.1and1.es';
+        $mail->Port = 25;
         $mail->SMTPAuth = true;
-        $mail->Username = 'bemacadamia@gmail.com';
-        $mail->Password = 'bemacadamia2015';
+        $mail->Username = '439486552';
+        $mail->Password = 'beMacadamia2015';
         $mail->SMTPDebug = 0;
 
         $mail->setFrom('info@bemacadamia.com', 'Formulario de contacto');
