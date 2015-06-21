@@ -8,11 +8,13 @@
 
 if($_GET['usu'] == 'winteriscomming') {
     $cambio = shell_exec('cd /var/www/html/test/bemacadamia/');
+    var_dump($cambio);
+    var_dump('1) Cambio hecho...');
     if($cambio) {
         $pull = shell_exec('git pull');
-
+        var_dump($pull);
         if($pull) {
-            die('Actualizado correctamente...');
+            die('2) Actualizado correctamente...');
         }
 
         else {
