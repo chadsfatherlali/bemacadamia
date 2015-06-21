@@ -78,7 +78,7 @@ get_header('bemacadamia'); ?>
                             <li>
                                 <div class="form-footer">
                                     <button type="submit" id="sentToCart" class="btn btn-default" /><?php tokensManager::setText(13) ?></button>
-                                    <div class="price play-fair-regular"><?php echo $post['custom']['wpcf-precio'][0] ?> € (IVA incluido)</div>
+                                    <div class="price play-fair-regular"><?php echo $post['custom']['wpcf-precio'][0] ?> € <span class="font-12">(IVA incluido)</span></div>
                                 </div>
                             </li>
                         </ul>
