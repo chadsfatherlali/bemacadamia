@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ab4f423-1efd-457c-a277-12a529826308" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mailmanager/mailmanager.php" afterPath="$PROJECT_DIR$/vendor/mailmanager/mailmanager.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/pagos/pagos.php" afterPath="$PROJECT_DIR$/vendor/pagos/pagos.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
     </list>
     <ignored path="bemacadamia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -145,12 +142,12 @@
       <file leaf-file-name="pagos.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.051376145" vertical-offset="167" max-vertical-offset="1530">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.10642202" vertical-offset="62" max-vertical-offset="1530">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
-                <marker date="1434916243000" expanded="true" signature="1929:2009" placeholder="..." />
-                <marker date="1434916243000" expanded="true" signature="2730:2788" placeholder="select * fro..wp_cart..." />
-                <marker date="1434916243000" expanded="true" signature="2968:3066" placeholder="select post_..wp_posts..." />
+                <marker date="1434916972000" expanded="true" signature="1920:2000" placeholder="..." />
+                <marker date="1434916972000" expanded="true" signature="2721:2779" placeholder="select * fro..wp_cart..." />
+                <marker date="1434916972000" expanded="true" signature="2959:3057" placeholder="select post_..wp_posts..." />
               </folding>
             </state>
           </provider>
@@ -1488,12 +1485,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.051376145" vertical-offset="167" max-vertical-offset="1530">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.10642202" vertical-offset="62" max-vertical-offset="1530">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <marker date="1434916243000" expanded="true" signature="1929:2009" placeholder="..." />
-            <marker date="1434916243000" expanded="true" signature="2730:2788" placeholder="select * fro..wp_cart..." />
-            <marker date="1434916243000" expanded="true" signature="2968:3066" placeholder="select post_..wp_posts..." />
+            <marker date="1434916972000" expanded="true" signature="1920:2000" placeholder="..." />
+            <marker date="1434916972000" expanded="true" signature="2721:2779" placeholder="select * fro..wp_cart..." />
+            <marker date="1434916972000" expanded="true" signature="2959:3057" placeholder="select post_..wp_posts..." />
           </folding>
         </state>
       </provider>

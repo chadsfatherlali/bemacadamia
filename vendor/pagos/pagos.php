@@ -23,8 +23,8 @@ class pagos
         $mail->SMTPDebug = 0;
 
         $mail->setFrom('info@bemacadamia.com', 'beMacadamia Shopping Cart');
-        $mail->addAddress('info@bemacadamia.com');
-        $mail->addCC('badia.emma@gmail.com');
+        $mail->addAddress($get['email']);
+        $mail->addCC('info@bemacadamia.com');
         $mail->addBCC('chadsfather@gmail.com');
 
         $mail->isHTML(true);
