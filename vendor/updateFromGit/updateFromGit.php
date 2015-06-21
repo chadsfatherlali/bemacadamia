@@ -8,7 +8,7 @@
 
 if($_GET['usu'] == 'winteriscomming') {
     try {
-        $cambio = exec('cd /var/www/html/test/bemacadamia/ && git pull');
+        $cambio = exec('cd /var/www/html/test/bemacadamia/ && git pull git@github.com:chadsfatherlali/bemacadamia.git');
         die('Actualizado correctamente...');
     }
 
