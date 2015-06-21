@@ -1,1 +1,2 @@
+Cuando se corre este script pasa esto:
 Esto es un actualizador del ficheros de git :).
