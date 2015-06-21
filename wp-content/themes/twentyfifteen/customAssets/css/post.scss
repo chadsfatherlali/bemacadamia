@@ -492,6 +492,7 @@ $gris: #949494;
         @extend %flexbox;
         @include justify-content(flex-start);
         @include align-items(center);
+        @include flex-wrap(wrap);
         &:first-child{
             border-top: none;
         }
@@ -507,6 +508,10 @@ $gris: #949494;
         .form-interactive{
             @extend %flexbox;
             @include justify-content(space-between);
+        }
+        >p{
+            font-size: 12px;
+            margin: 20px 0 20px 90px;
         }
 
         .form-sizes{

@@ -1804,9 +1804,9 @@ if (typeof Object.create !== "function") {
             if (tallasArr.indexOf(size) == -1) {
                 $(v).addClass('disabled');
             }else{
-                // if (active) {
-                //     $(v).trigger('click');
-                // }
+                if (active) {
+                    $(v).trigger('click');
+                }
             }
         });
 

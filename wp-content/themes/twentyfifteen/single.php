@@ -56,8 +56,9 @@ get_header('bemacadamia'); ?>
                                     <li data-size="S">S</li>
                                     <li data-size="M">M</li>
                                     <li data-size="XL">XL</li>
-                                    <li data-size="U">U</li>
+                                    <li data-size="U">Única</li>
                                 </ul>
+                                <p>Todos nuestros modelos son talla Única. Si habitualmente tu talla se encuentra entre la 34 y la 40, te quedarán perfectos, están diseñados para eso. Si bien nuestras clientas son distintas, los diseños be_macadamia se adaptan a cada una. Si tallas a partir de la 42, consúltanos sobre el modelo, y te ayudaremos</p>
                             </li>
                             <li>
                                 <h4>Cantidad</h4>
