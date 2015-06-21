@@ -68,7 +68,7 @@ get_header('bemacadamia'); ?>
                                 </div>
                             </li>
                             <li>
-                                <h4>Colors</h4>
+                                <h4>Colores</h4>
                                 <ul class="form-interactive form-colors" id="colors">
                                     <?php foreach($post['custom']['wpcf-colores_producto'] as $key => $color) { ?>
                                         <li data-color="<?php echo $color ?>" style="background-color: <?php echo $color ?>; box-shadow: 0 0 0 0px <?php echo $color ?>;"></li>
@@ -78,7 +78,7 @@ get_header('bemacadamia'); ?>
                             <li>
                                 <div class="form-footer">
                                     <button type="submit" id="sentToCart" class="btn btn-default" />Añadir</button>
-                                    <div class="price play-fair-regular"><?php echo $post['custom']['wpcf-precio'][0] ?> €</div>
+                                    <div class="price play-fair-regular"><?php echo $post['custom']['wpcf-precio'][0] ?> € (IVA incluido)</div>
                                 </div>
                             </li>
                         </ul>
@@ -97,10 +97,10 @@ get_header('bemacadamia'); ?>
                 <h4 class="modal-title" id="myModalLabel">Error:</h4>
             </div>
             <div class="modal-body">
-               Por favor revisa tu selección.
+               Por favor revisa tu selección, debes elegir una talla, una cantidad y un color.
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Continue</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Continuar</button>
             </div>
         </div>
     </div>
@@ -114,11 +114,11 @@ get_header('bemacadamia'); ?>
                 <h4 class="modal-title" id="myModalLabel">&nbsp;</h4>
             </div>
             <div class="modal-body">
-                Se añadio correctamento el producto a su cesta.
+                El producto de añadió correctamente al carrito
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Continuar</button>
-                <button id="vermas" type="button" class="btn btn-default" data-dismiss="modal">Ver otros modelos</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Finalizar compra</button>
+                <button id="vermas" type="button" class="btn btn-default" data-dismiss="modal">Seguir comprando</button>
             </div>
         </div>
     </div>

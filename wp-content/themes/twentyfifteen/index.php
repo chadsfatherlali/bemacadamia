@@ -21,7 +21,7 @@ get_header('bemacadamia'); ?>
             <p class="play-fair-regular"><?php tokensManager::setText(8) ?></p>
             <h2 class="play-fair-regular">Walk on by</h2>
             <!-- <div class="separator"></div> -->
-            <a href="/shop" class="btn btn-default">Shop now</a>
+            <a href="/shop" class="btn btn-default">Comprar</a>
         </div>
     </div>
 

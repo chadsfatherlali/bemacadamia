@@ -22,7 +22,7 @@ get_header('bemacadamia');?>
                 <div class="col-lg-12 no-padding payment-method-1 payment-method-container">
                     <div class="col-lg-12 no-padding txt-left headers">
                         <p class="play-fair-regular">Smart casual collection</p>
-                        <h2 class="play-fair-regular">Rellena tus detalles</h2>
+                        <h2 class="play-fair-regular">Rellena tus datos</h2>
 
                         <div class="separator"></div>
                     </div>
@@ -112,12 +112,12 @@ get_header('bemacadamia');?>
                         </div>
 
                         <div class="form-group">
-                            <label class="control-label" for="disabledInput">* Postal Code</label>
+                            <label class="control-label" for="disabledInput">* Código postal</label>
                             <input class="form-control" type="text" name="cpostal" id="cpostal" placeholder="Código postal" />
                         </div>
 
                         <div class="form-group">
-                            <label class="control-label" for="disabledInput">Phone (optional)</label>
+                            <label class="control-label" for="disabledInput">Teléfono (optional)</label>
                             <input class="form-control" type="text" name="telefono" id="telefono" placeholder="Teléfono" />
                         </div>
 
