@@ -19,13 +19,12 @@ class RedirectTemp
 {
     public function __construct()
     {
-        die('ddd');
-        if($_SERVER['REQUEST_URI'] !== '/coming-soon/'
+        /*if($_SERVER['REQUEST_URI'] !== '/coming-soon/'
             && (strpos('bemacadamia.com', $_SERVER['HTTP_HOST']) !== false
                 || strpos('bemacadamia.es', $_SERVER['HTTP_HOST']))) {
             header('Location: /coming-soon/');
             exit;
-        }
+        }*/
     }
 }
 
