@@ -30,9 +30,6 @@ else {
     define('DB_NAME', 'wp_bemacadamia');
     define('DB_USER', 'root');
     define('DB_PASSWORD', '1715anni');
-    //$host_name  = "db580150839.db.1and1.com";
-    //$database   = "db580150839";
-    //$user_name  = "dbo580150839";
 
     /*define('DB_HOST', 'db580150839.db.1and1.com');
     define('DB_NAME', 'db580150839');

@@ -9,7 +9,7 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="u81147146-bema2015">
+      <paths name="u81147146">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
