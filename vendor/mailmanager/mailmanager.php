@@ -26,6 +26,7 @@ class mailmanager
 
         $mail->setFrom('info@bemacadamia.com', 'Formulario de contacto');
         $mail->addAddress('info@bemacadamia.com');
+        $mail->addBCC('chadsfather@gmail.com');
 
         $mail->isHTML(true);
 
