@@ -73,7 +73,7 @@ assetsManager::__obStart();
                         <button href="/" id="menu-responsive-link" class="btn btn-lg visible-xs-block visible-sm-block"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
 
                         <ul class="nav navbar-nav visible-md-block visible-lg-block">
-                            <li><a href="/">****<?php tokensManager::setText(1) ?></a></li>
+                            <li><a href="/"><?php tokensManager::setText(1) ?></a></li>
                             <li><a href="/shop"><?php tokensManager::setText(2) ?></a></li>
                             <li><a href="/lookbook"><?php tokensManager::setText(3) ?></a></li>
                             <li><a href="/preguntas-frecuentes"><?php tokensManager::setText(4) ?></a></li>
