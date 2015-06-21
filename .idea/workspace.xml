@@ -166,8 +166,8 @@
       <file leaf-file-name="updateFromGit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/updateFromGit/updateFromGit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36" vertical-offset="0" max-vertical-offset="450">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.56" vertical-offset="0" max-vertical-offset="420">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -1375,8 +1375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/updateFromGit/updateFromGit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36" vertical-offset="0" max-vertical-offset="450">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.56" vertical-offset="0" max-vertical-offset="420">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding />
         </state>
       </provider>

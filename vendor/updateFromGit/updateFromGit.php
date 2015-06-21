@@ -7,19 +7,17 @@
  */
 
 if($_GET['usu'] == 'winteriscomming') {
-    $cambio = shell_exec('cd /var/www/html/test/bemacadamia/');
-    var_dump($cambio);
-    var_dump('1) Cambio hecho...');
-    if($cambio) {
+    try {
+        $cambio = shell_exec('cd /var/www/html/test/bemacadamia/');
+        var_dump('1) Cambio hecho...');
         $pull = shell_exec('git pull');
-        var_dump($pull);
-        if($pull) {
-            die('2) Actualizado correctamente...');
-        }
+        die('2) Actualizado correctamente...');
+    }
 
-        else {
-            die('Se ha producido un error...');
-        }
+    catch(Exception $e)
+    {
+        var_dump($e);
+        die('Se ha producido un error');
     }
 }
 
