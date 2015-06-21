@@ -32,7 +32,7 @@ get_header('bemacadamia');?>
 
                         <div class="form-group">
                             <label class="control-label" for="disabledInput">* Email</label>
-                            <input class="form-control" type="text" name="email" id="email" placeholder="example@domain.com" />
+                            <input class="form-control" type="text" name="email" id="email" placeholder="<?php tokensManager::setText(10) ?>" />
                         </div>
 
                         <div class="form-group">
@@ -112,12 +112,12 @@ get_header('bemacadamia');?>
                         </div>
 
                         <div class="form-group">
-                            <label class="control-label" for="disabledInput">* Postal Code</label>
-                            <input class="form-control" type="text" name="cpostal" id="cpostal" placeholder="Código postal" />
+                            <label class="control-label" for="disabledInput">* <?php tokensManager::setText(12) ?></label>
+                            <input class="form-control" type="text" name="cpostal" id="cpostal" placeholder="<?php tokensManager::setText(12) ?>" />
                         </div>
 
                         <div class="form-group">
-                            <label class="control-label" for="disabledInput">Phone (optional)</label>
+                            <label class="control-label" for="disabledInput"><?php tokensManager::setText(11) ?></label>
                             <input class="form-control" type="text" name="telefono" id="telefono" placeholder="Teléfono" />
                         </div>
 
@@ -314,7 +314,8 @@ get_header('bemacadamia');?>
 
                         <div class="separator"></div>
 
-                        <p class="source-sans-pro font-12">Muchas gracias por tu compra.</p>
+                        <p class="source-sans-pro font-12 font-24"><?php tokensManager::setText(14) ?></p>
+                        <p>Hemos recibido correctamente tu pedido. A continuación recibirás un correo electrónico  con toda la información para tramitar el pago. Si tienes cualquier duda, escríbenos a <a href="mailto:info@bemacadamia.com">info@bemacadamia.com</a></p>
                     </div>
                 </div>
             </div>

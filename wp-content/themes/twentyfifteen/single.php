@@ -77,7 +77,7 @@ get_header('bemacadamia'); ?>
                             </li>
                             <li>
                                 <div class="form-footer">
-                                    <button type="submit" id="sentToCart" class="btn btn-default" />Añadir</button>
+                                    <button type="submit" id="sentToCart" class="btn btn-default" /><?php tokensManager::setText(13) ?></button>
                                     <div class="price play-fair-regular"><?php echo $post['custom']['wpcf-precio'][0] ?> €</div>
                                 </div>
                             </li>

@@ -1,5 +1,5 @@
 <?php
-//assetsManager::__obStart();
+assetsManager::__obStart();
 /**
  * Created by PhpStorm.
  * User: chadsfather
@@ -76,7 +76,7 @@
                             <li><a href="/"><?php tokensManager::setText(1) ?></a></li>
                             <li><a href="/shop"><?php tokensManager::setText(2) ?></a></li>
                             <li><a href="/lookbook"><?php tokensManager::setText(3) ?></a></li>
-                            <li><a href="/faqs"><?php tokensManager::setText(4) ?></a></li>
+                            <li><a href="/preguntas-frecuentes"><?php tokensManager::setText(4) ?></a></li>
                             <li><a href="/contacto"><?php tokensManager::setText(5) ?></a></li>
                         </ul>
                     </div>

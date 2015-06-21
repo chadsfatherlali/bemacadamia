@@ -17,7 +17,7 @@ get_header('bemacadamia');
     <div class="container-fluid body-contain no-padding">
         <div class="contenido txt-center">
             <p class="play-fair-regular">beMacadamia</p>
-            <h2 class="play-fair-regular">Faq's</h2>
+            <h2 class="play-fair-regular"><?php tokensManager::setText(4) ?></h2>
 
             <div class="separator"></div>
         </div>

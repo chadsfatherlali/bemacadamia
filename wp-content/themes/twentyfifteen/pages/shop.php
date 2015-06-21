@@ -30,7 +30,7 @@ get_header('bemacadamia'); ?>
                     <a href="/<?php echo $post['post']['post_name'] ?>">
                         <div class="img lazy" data-original="<?php echo $post['custom']['wpcf-imagen'][0] ?>" style="background-image: url('')"></div>
                         <div class="velo">
-                            <button class="btn btn-default">Shop now</button>
+                            <button class="btn btn-default"><?php tokensManager::setText(15) ?></button>
                         </div>
                     </a>
                     <p class="source-sans-pro font-12"><?php echo $post['post']['post_title'] ?> <span class="play-fair-regular font-14"><strong><?php echo $post['custom']['wpcf-precio'][0] ?> €</strong></span></p>
