@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ab4f423-1efd-457c-a277-12a529826308" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/RedirectTemp.php" afterPath="$PROJECT_DIR$/wp-content/plugins/RedirectTemp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bemacadamia.iws" />
@@ -326,10 +326,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header-bemacadamia.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header-bemacadamia.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7258065" vertical-offset="855" max-vertical-offset="1530">
+            <state vertical-scroll-proportion="-11.25" vertical-offset="855" max-vertical-offset="1530">
               <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
               <folding />
             </state>
@@ -554,11 +554,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedirectTemp.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RedirectTemp.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/RedirectTemp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0416667" vertical-offset="71" max-vertical-offset="435">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.3697183" vertical-offset="0" max-vertical-offset="568">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -612,7 +612,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/lookbook.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/vendor/pagos/pagos.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/RedirectTemp.php" />
         <option value="$PROJECT_DIR$/vendor/mailmanager/mailmanager.php" />
         <option value="$PROJECT_DIR$/vendor/updateFromGit/prueba.txt" />
         <option value="$PROJECT_DIR$/vendor/updateFromGit/prueba3.txt" />
@@ -623,6 +622,7 @@
         <option value="$PROJECT_DIR$/vendor/updateFromGit/uso.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/RedirectTemp.php" />
       </list>
     </option>
   </component>
@@ -794,7 +794,7 @@
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4834437" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33774835" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25960264" sideWeight="0.6287554" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25960264" sideWeight="0.6287554" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1232,14 +1232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/RedirectTemp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0416667" vertical-offset="71" max-vertical-offset="435">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="990">
@@ -1305,8 +1297,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7258065" vertical-offset="855" max-vertical-offset="1530">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="855" max-vertical-offset="1530">
           <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/RedirectTemp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3697183" vertical-offset="0" max-vertical-offset="568">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding />
         </state>
       </provider>
