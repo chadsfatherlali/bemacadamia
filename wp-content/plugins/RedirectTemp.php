@@ -22,7 +22,7 @@ class RedirectTemp
         if($_SERVER['REQUEST_URI'] !== '/coming-soon/'
             && (strpos('bemacadamia.com', $_SERVER['HTTP_HOST']) !== false
                 || strpos('bemacadamia.es', $_SERVER['HTTP_HOST']))) {
-            header('Location: /coming-soon/');
+            header('Location: https://instagram.com/be_macadamia/');
             exit;
         }
     }
