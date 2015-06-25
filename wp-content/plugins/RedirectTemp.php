@@ -19,9 +19,8 @@ class RedirectTemp
 {
     public function __construct()
     {
-        if($_SERVER['REQUEST_URI'] !== '/coming-soon/'
-            && (strpos('bemacadamia.com', $_SERVER['HTTP_HOST']) !== false
-                || strpos('bemacadamia.es', $_SERVER['HTTP_HOST']))) {
+        if(strpos('bemacadamia.com', $_SERVER['HTTP_HOST']) !== false
+                || strpos('bemacadamia.es', $_SERVER['HTTP_HOST'])) {
             header('Location: https://instagram.com/be_macadamia/');
             exit;
         }
