@@ -8,7 +8,7 @@
 
 if($_GET['usu'] == 'winteriscomming') {
     try {
-        $cambio = exec('cd /var/www/html/test/bemacadamia/ && git dif origin/master', $proceso);
+        $cambio = exec('cd /var/www/html/test/bemacadamia/ && git diff origin/master', $proceso);
         print('<pre>');
         print_r($proceso);
         print('</pre>');
