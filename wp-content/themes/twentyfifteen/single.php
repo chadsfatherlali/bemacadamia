@@ -19,7 +19,7 @@ get_header('bemacadamia'); ?>
                         <a href="/shop" class="source-sans-pro">Volver</a>
                     </div>
                     <div class="galery">
-                        <div id="img-full" style="background-image: url('<?php echo $images[0]['img'] ?>')"></div>
+                        <div id="img-full" style="background-image: url('<?php echo $images[0]['img'] ?>')" data-zoom-image="<?php echo $images[0]['img'] ?>"></div>
                         <div id="owl-demo" class="owl-carousel">
                             <?php foreach($images as $key => $img) { ?>
                                 <div class="item" data-position="<?php echo $key + 1 ?>" data-img="<?php echo $img['img'] ?>" style="background-image: url('<?php echo $img['img'] ?>')"></div>

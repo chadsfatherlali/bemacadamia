@@ -1728,6 +1728,8 @@ if (typeof Object.create !== "function") {
 (function($, _) {
     var owl = $("#owl-demo");
 
+    var ez = $("#img-full").elevateZoom({easing: true});
+
     owl.owlCarousel({
         items: 4
     });
@@ -1743,6 +1745,11 @@ if (typeof Object.create !== "function") {
 
         $('#position').html(pos);
         $('#img-full').css('backgroundImage', 'url("' + img + '")');
+
+        $('.zoomContainer')
+            .find('.zoomWindowContainer')
+            .find('div')
+            .css('backgroundImage', 'url("' + img + '")');
     });
 
 
@@ -1755,8 +1762,6 @@ if (typeof Object.create !== "function") {
             var talla = $this.data('size');
             $('#talla').val(talla);
         };
-
-
     });
 
     $('#colors li').on('click', function(e){
@@ -1769,9 +1774,6 @@ if (typeof Object.create !== "function") {
         $('#color').val(color);
 
     });
-
-
-
 
     $('#gallery-nav-right').click(function() {
         owl.trigger('owl.next');

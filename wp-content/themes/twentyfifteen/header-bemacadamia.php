@@ -24,14 +24,20 @@ assetsManager::__obStart();
 
     <?php wp_head(); ?>
     <script>
-        var host = "<?php $_SERVER['SERVER_NAME'] ?>";
+        var host = "<?php echo $_SERVER['SERVER_NAME'] ?>";
     </script>
 
     <?php
         if(is_home()) {
             $pics = assetsManager::getGdriveImages(5);
+            $picjs = array();
+
+            foreach($pics as $pic) {
+                $picjs[] = '"' . $pic['img'] . '"';
+            }
         }
     ?>
+    <script>var picsjs = [<?php echo join(',', $picjs) ?>]</script>
 </head>
 <body <?php body_class(); ?>>
 
