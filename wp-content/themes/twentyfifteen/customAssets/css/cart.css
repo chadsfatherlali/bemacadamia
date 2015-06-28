@@ -44,17 +44,18 @@
   transform: translate(-110%, 0%); }
 
 .payment-method-2 {
-  transform: translate(100%, -108.9%);
+  transform: translate(100%, -150.9%);
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
 
 .payment-method-2.next {
-  transform: translate(0%, -108.9%); }
+  transform: translate(0%, -150.9%); }
 
 .toTrash {
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: underline; }
 
 .info-cliente-header {
   margin: 1em 0; }
@@ -71,5 +72,8 @@
   border-top: 1px dotted #949494;
   border-bottom: 1px dotted #949494;
   margin: 4em 0; }
+
+.form-group {
+  margin: 3em 0em !important; }
 
 /*# sourceMappingURL=cart.css.map */

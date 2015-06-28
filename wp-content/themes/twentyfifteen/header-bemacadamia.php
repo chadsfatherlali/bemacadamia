@@ -71,10 +71,10 @@ assetsManager::__obStart();
 
                 <!-- Controls -->
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="icon-prev"></span>
+                    <span class="icon-prev"><?php echo assetsManager::getSvgImages('iconos', 'Arrow_circle_left_hover') ?></span>
                 </a>
                 <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="icon-next"></span>
+                    <span class="icon-next"><?php echo assetsManager::getSvgImages('iconos', 'Arrow_circle_right_hover') ?></span>
                 </a>
 
             </header>

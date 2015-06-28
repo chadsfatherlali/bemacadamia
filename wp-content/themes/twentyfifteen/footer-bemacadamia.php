@@ -17,8 +17,8 @@
                     <p class=""><span class="glyphicon glyphicon-copyright-mark"></span> <?php tokensManager::setText(6) ?> | <?php tokensManager::setText(7) ?></p>
                 </div>
                 <div class="col-md-4 social-networks-container-footer txt-center">
-                    <a href="https://www.facebook.com/pages/Be_Macadamia/2046853612120269" target="blank"><?php echo assetsManager::getSvgImages('logos', 'Facebook_white') ?></a>
-                    <a href=""><?php echo assetsManager::getSvgImages('logos', 'Instagram_white') ?></a>
+                    <a href="https://www.facebook.com/pages/Be_Macadamia/2046853612120269" target="blank"><?php echo assetsManager::getSvgImages('logos', 'facebook') ?></a>
+                    <a href=""><?php echo assetsManager::getSvgImages('logos', 'Instagram') ?></a>
                 </div>
             </div>
         </div>

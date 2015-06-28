@@ -52,12 +52,12 @@ get_header('bemacadamia');?>
 
                         <div class="form-group">
                             <label for="select" class="col-lg-12 control-label no-padding">* Ciudad</label>
-                            <div class="col-lg-12 no-padding">
+                            <div class="no-padding">
                                 <select class="form-control" name="ciudad" id="ciudad">
                                     <option>(Seleccionar)</option>
                                     <option>Álava</option>
                                     <option>Albacete</option>
-                                    <option>Alicante/Alacant</option>
+                                    <option>Alicante</option>
                                     <option>Almería</option>
                                     <option>Asturias</option>
                                     <option>Ávila</option>
@@ -207,7 +207,7 @@ get_header('bemacadamia');?>
                             <div class="img-producto" style="background-image: url('<?php postHelper::getImageFromID($item['producto']) ?>')"></div>
                         </div>
                         <div class="col-xs-8">
-                            <h4 class="play-fair-regular font-12"><?php postHelper::getName($item['producto']) ?> <span class="txt-right"></span><span class="txt-gris play-fair-regular font-10">x</span><span class="txt-gris play-fair-regular font-12"><?php echo $item['cantidad'] ?></span></span> <span data-trash="<?php echo $key ?>" class="txt-right glyphicon glyphicon-trash toTrash"></span></h4>
+                            <h4 class="play-fair-regular font-12"><?php postHelper::getName($item['producto']) ?> <span class="txt-right"></span><span class="txt-gris play-fair-regular font-10">x</span><span class="txt-gris play-fair-regular font-12"><?php echo $item['cantidad'] ?></span></span> <span data-trash="<?php echo $key ?>" class="txt-right toTrash source-sans-pro">eliminar</span></h4>
                             <div class="row">
                                 <div class="col-xs-1">
                                     <div class="circle-color" style="background-color: <?php echo $item['color'] ?>"></div>

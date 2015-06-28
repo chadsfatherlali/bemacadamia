@@ -162,8 +162,35 @@ $gris: #949494;
 .btn-default {
     border-color: white !important;
     color: white !important;
+    &:hover {
+        background: rgba(255, 255, 255, 0.3) !important;
+        border-color: rgba(255, 255, 255, 0.3) !important;
+    }
 }
-
 .home footer{
     display: none;
+}
+.icon-prev:before {
+    content: " " !important;
+}
+.icon-next:before {
+    content: " " !important;
+}
+.carousel-control {
+    zoom: 1;
+    filter: alpha(opacity=100) !important;
+    opacity: 1 !important;
+
+}
+.carousel-control {
+    svg {
+        width: 30px;
+    }
+}
+.hover-arrow {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(255, 255, 255, 1);
+    &:hover {
+        fill: rgba(255, 255, 255, 1)
+    }
 }
