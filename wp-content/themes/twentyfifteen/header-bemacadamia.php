@@ -56,7 +56,15 @@ assetsManager::__obStart();
                 <div class="carousel-inner" role="listbox">
                     <?php foreach($pics as $k => $v) { ?>
                         <div class="item <?php echo $k === 0? 'active' : '' ?>">
-                            <div class="fill" style="background-image:url('<?php echo $v['img'] ?>');"></div>
+                            <div class="fill lazy"
+                                 <?php if($k === 0) { ?>
+                                     data-original="<?php echo $v['img'] ?>"
+                                    style="background-image:url('');"
+                                 <?php } else { ?>
+                                    style="background-image:url('<?php echo $v['img'] ?>');"
+                                 <?php } ?>
+                                >
+                            </div>
                         </div>
                     <?php } ?>
                 </div>
