@@ -12,7 +12,7 @@
  * Time: 21:53
  */
 $cart = cart::getItems($_GET['id']);
-//print_r($cart);die;
+
 get_header('bemacadamia');?>
 
     <div class="container body-contain no-padding">
