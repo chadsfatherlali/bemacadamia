@@ -12,7 +12,7 @@ if($_GET['usu'] == 'winteriscomming') {
         print('<pre>');
         print_r($proceso);
         print('</pre>');
-        var_export('Cambios a realizar');
+        echo 'Cambios a realizar';
 
         $update = exec('cd /var/www/html/test/bemacadamia/ && git pull', $proceso);
         print('<pre>');

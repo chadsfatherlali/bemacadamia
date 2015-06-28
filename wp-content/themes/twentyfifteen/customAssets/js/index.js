@@ -17,9 +17,11 @@
     setTimeout(function() {
         $('.transition-txt-1').addClass('transition-txt-in');
     }, 2000);
+
     setTimeout(function() {
         $('.transition-txt-2').addClass('transition-txt-in');
     }, 2300);
+
     setTimeout(function() {
         $('.transition-txt-3').addClass('transition-txt-in');
     }, 2600);

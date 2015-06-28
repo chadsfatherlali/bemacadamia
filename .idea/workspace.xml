@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ab4f423-1efd-457c-a277-12a529826308" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/index.js" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/updateFromGit.php" afterPath="$PROJECT_DIR$/updateFromGit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="updateFromGit.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="updateFromGit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/updateFromGit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47368422" vertical-offset="0" max-vertical-offset="540">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="540">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -164,11 +165,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.8252427" vertical-offset="60" max-vertical-offset="465">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -255,8 +256,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/index.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/index.js" />
         <option value="$PROJECT_DIR$/updateFromGit.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/index.js" />
       </list>
     </option>
   </component>
@@ -1060,21 +1061,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/index.js">
+    <entry file="file://$PROJECT_DIR$/updateFromGit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="540">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/updateFromGit.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47368422" vertical-offset="0" max-vertical-offset="540">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding />
+        <state vertical-scroll-proportion="0.8252427" vertical-offset="60" max-vertical-offset="465">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
