@@ -8,6 +8,7 @@
 
 if($_GET['usu'] == 'winteriscomming') {
     try {
+        print_r($_POST);
         $cambio = exec('cd /var/www/html/test/bemacadamia/ && git pull');
         die('Actualizado correctamente...');
     }
