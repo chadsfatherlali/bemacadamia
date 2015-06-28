@@ -17,11 +17,11 @@
 get_header('bemacadamia'); ?>
 
     <div class="container-fluid">
-        <div class="principal-message class="tlt"">
-            <p class="play-fair-regular"><?php tokensManager::setText(8) ?></p>
-            <h2 class="play-fair-regular">Walk on by</h2>
+        <div class="principal-message">
+            <p class="play-fair-regular transition-txt transition-txt-1"><?php tokensManager::setText(8) ?></p>
+            <h2 class="play-fair-regular transition-txt transition-txt-2">Walk on by</h2>
             <!-- <div class="separator"></div> -->
-            <a href="/shop" class="btn btn-default home-btn">Comprar</a>
+            <a href="/shop" class="btn btn-default home-btn transition-txt transition-txt-3">Comprar</a>
         </div>
     </div>
 
