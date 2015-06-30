@@ -11,7 +11,7 @@ assetsManager::__obStart();
 <html <?php language_attributes(); ?> class="no-js">
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <!-- <meta name="viewport" content="width=device-width"> -->
+    <meta name="viewport" content="width=device-width">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <!--[if lt IE 9]>
@@ -83,10 +83,14 @@ assetsManager::__obStart();
         <nav id="main-nav-bar" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid no-padding">
                 <div class="row">
-                    <div class="col-xs-5">
-                        <button href="/" id="menu-responsive-link" class="btn btn-lg visible-xs-block visible-sm-block"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+                    <div class="col-xs-3 visible-xs-block visible-sm-block">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/" id="menu-responsive-link" class="btn btn-lg"><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
+                        </ul>
+                    </div>
 
-                        <ul class="nav navbar-nav visible-md-block visible-lg-block">
+                    <div class="col-xs-5 visible-md-block visible-lg-block">
+                        <ul class="nav navbar-nav">
                             <li><a href="/"><?php tokensManager::setText(1) ?></a></li>
                             <li><a href="/shop"><?php tokensManager::setText(2) ?></a></li>
                             <li><a href="/lookbook"><?php tokensManager::setText(3) ?></a></li>
@@ -95,7 +99,7 @@ assetsManager::__obStart();
                         </ul>
                     </div>
 
-                    <div class="logo-bemacadamia-header">
+                    <div class="logo-bemacadamia-header visible-md-block">
                         <!-- <a href="#"><img class="w-200" src="<?php echo assetsManager::getPathImages('logos', 'Logo_black.svg') ?>" /></a> -->
                         <a href="/"><?php echo assetsManager::getSvgImages('logos', 'Logo_black') ?></a>
                     </div>
