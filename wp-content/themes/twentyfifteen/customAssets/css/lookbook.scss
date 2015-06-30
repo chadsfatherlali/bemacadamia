@@ -646,3 +646,18 @@ A library of transitions for revealing the loaded images
     -moz-animation-duration:    1.1s;
     animation-duration:         1.1s;
 }
+.collage-row{
+    li {
+        overflow: hidden;
+        img {
+            -webkit-transition: transform 0.5s ease-in-out;
+            -moz-transition: transform 0.5s ease-in-out;
+            -o-transition: transform 0.5s ease-in-out;
+            transition: transform 0.5s ease-in-out;
+            transform: scale(1, 1);
+            &:hover {
+                transform: scale(1.05, 1.05);
+            }
+        }
+    }
+}

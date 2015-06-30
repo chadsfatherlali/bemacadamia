@@ -284,9 +284,9 @@ get_header('bemacadamia');?>
                     <p><strong>El método de pago es el siguiente:</strong></p>
                         <ul>
                             <li>
-                                <strong>1)</strong> A través de transferencia bancaria al siguiente número de cuenta: 0065-0103-55-0001039330.
+                                <strong>1)</strong> A través de transferencia bancaria al siguiente número de cuenta: IBAN: ES77-0128-0012-8301-0005-0165.
                                 Una vez nos hagas llegar el justificante de la transferencia, tramitaremos tu pedido y te llegara en un plazo de 24/48horas.
-                                En "concepto" debes especificar tu nombre y apellidos.
+                                Concepto (importante especificar): tu nombre y apellidos.
                                 Beneficiario: Marina.
                             </li>
                             <li>
@@ -308,7 +308,7 @@ get_header('bemacadamia');?>
                     <h4 class="modal-title" id="myModalLabel">&nbsp;</h4>
                 </div>
                 <div class="modal-body">
-                    <div class="contenido">
+                    <div class="contenido txt-center">
                         <p class="play-fair-regular">beMacadamia</p>
                         <h2 class="play-fair-regular">Walk on by</h2>
 
@@ -316,6 +316,8 @@ get_header('bemacadamia');?>
 
                         <p class="source-sans-pro font-12 font-24"><?php tokensManager::setText(14) ?></p>
                         <p>Hemos recibido correctamente tu pedido. A continuación recibirás un correo electrónico  con toda la información para tramitar el pago. Si tienes cualquier duda, escríbenos a <a href="mailto:info@bemacadamia.com">info@bemacadamia.com</a></p>
+
+                        <a class="btn btn-default" href="/shop">Continuar</a>
                     </div>
                 </div>
             </div>

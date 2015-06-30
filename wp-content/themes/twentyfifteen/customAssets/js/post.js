@@ -1896,4 +1896,11 @@ if (typeof Object.create !== "function") {
         window.top.location = '/shop';
     });
 
+    $('#finalizar').on('click', function(e) {
+        e.preventDefault();
+        if($.cookie('cart')) {
+            window.top.location = '/cart?id=' + $.cookie('cart');
+        }
+    });
+
 })(jQuery, _);

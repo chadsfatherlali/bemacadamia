@@ -114,11 +114,12 @@ get_header('bemacadamia'); ?>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title" id="myModalLabel">&nbsp;</h4>
             </div>
-            <div class="modal-body">
-                El producto de añadió correctamente al carrito
+            <div class="modal-body txt-center">
+                <p class="font-30 play-fair-regular">¡Perfecto!</p>
+                <p>El producto se ha añadido correctamente a tu cesta de la compra</p>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Finalizar compra</button>
+            <div class="modal-footer txt-center">
+                <button id="finalizar" type="button" class="btn btn-default" data-dismiss="modal">Finalizar compra</button>
                 <button id="vermas" type="button" class="btn btn-default" data-dismiss="modal">Seguir comprando</button>
             </div>
         </div>
