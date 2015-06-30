@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ab4f423-1efd-457c-a277-12a529826308" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.css" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.scss" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.css" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.scss" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/lookbook.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/lookbook.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/lookbook.css" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/lookbook.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/lookbook.scss" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/lookbook.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/pagos/pagos.html" afterPath="$PROJECT_DIR$/vendor/pagos/pagos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/post.js" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.css" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.scss" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" />
     </list>
     <ignored path="bemacadamia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header-bemacadamia.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header-bemacadamia.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.27451" vertical-offset="1024" max-vertical-offset="1740">
-              <caret line="76" column="112" selection-start-line="76" selection-start-column="112" selection-end-line="76" selection-end-column="112" />
+            <state vertical-scroll-proportion="0.33333334" vertical-offset="67" max-vertical-offset="1740">
+              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -142,20 +125,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7149123" vertical-offset="2181" max-vertical-offset="3105">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2181" max-vertical-offset="3105">
               <caret line="178" column="24" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
-              <folding>
-                <marker date="1435690751000" expanded="true" signature="59:5565" placeholder="{...}" />
-                <marker date="1435690751000" expanded="true" signature="4753:5565" placeholder="{...}" />
-                <marker date="1435690751000" expanded="true" signature="4802:5565" placeholder="{...}" />
-                <marker date="1435690751000" expanded="true" signature="4960:5565" placeholder="{...}" />
-                <marker date="1435690751000" expanded="true" signature="5306:5565" placeholder="{...}" />
-                <marker date="1435690751000" expanded="true" signature="5349:5565" placeholder="{...}" />
-                <marker date="1435690751000" expanded="true" signature="5591:6140" placeholder="/*...*/" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -326,7 +301,6 @@
         <option value="$PROJECT_DIR$/vendor/updateFromGit/uso.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/plugins/RedirectTemp.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/images/iconos/Arrow_circle_right_hover.svg" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/images/iconos/Arrow_circle_left_hover.svg" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/plugins.js" />
@@ -345,6 +319,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" />
       </list>
     </option>
   </component>
@@ -627,6 +602,7 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4834437" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33774835" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5271523" sideWeight="0.6287554" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32980132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -640,7 +616,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -992,17 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.27451" vertical-offset="1024" max-vertical-offset="1740">
-          <caret line="76" column="112" selection-start-line="76" selection-start-column="112" selection-end-line="76" selection-end-column="112" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/plugins.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
@@ -1152,16 +1116,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7149123" vertical-offset="2181" max-vertical-offset="3105">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2181" max-vertical-offset="3105">
           <caret line="178" column="24" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="67" max-vertical-offset="1740">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
           <folding>
-            <marker date="1435690751000" expanded="true" signature="59:5565" placeholder="{...}" />
-            <marker date="1435690751000" expanded="true" signature="4753:5565" placeholder="{...}" />
-            <marker date="1435690751000" expanded="true" signature="4802:5565" placeholder="{...}" />
-            <marker date="1435690751000" expanded="true" signature="4960:5565" placeholder="{...}" />
-            <marker date="1435690751000" expanded="true" signature="5306:5565" placeholder="{...}" />
-            <marker date="1435690751000" expanded="true" signature="5349:5565" placeholder="{...}" />
-            <marker date="1435690751000" expanded="true" signature="5591:6140" placeholder="/*...*/" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
