@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ab4f423-1efd-457c-a277-12a529826308" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.css" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.scss" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gdriveCustomBox/gdriveCustomBox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gdriveCustomBox/gdriveCustomBox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/faqs.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/faqs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/googleapi/googleapi.php" afterPath="$PROJECT_DIR$/vendor/googleapi/googleapi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/preguntas-frecuentes.css" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/preguntas-frecuentes.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/preguntas-frecuentes.scss" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/preguntas-frecuentes.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bemacadamia.iws" />
@@ -32,11 +35,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="assetsManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/assetsManager/assetsManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="3930">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#6#33#0#PHP" expanded="true" />
+                <marker date="1434487293000" expanded="true" signature="5380:5442" placeholder="select Json ..wp_gdrive..." />
+                <marker date="1434487293000" expanded="true" signature="5528:5602" placeholder="select Json ..wp_gdrive..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="updateFromGit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/updateFromGit.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="450">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gDriveManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/gdriveManager/gDriveManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.125" vertical-offset="174" max-vertical-offset="765">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="36" />
+              <folding>
+                <marker date="1433453506000" expanded="true" signature="1060:1083" placeholder="select * fro..wp_gdrive..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gDriveManager.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/gdriveManager/staticFiles/gDriveManager.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1815">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -58,8 +97,8 @@
       <file leaf-file-name="shop.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/shop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.823529" vertical-offset="0" max-vertical-offset="930">
-              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="109" />
+            <state vertical-scroll-proportion="-3.5294118" vertical-offset="270" max-vertical-offset="930">
+              <caret line="30" column="105" selection-start-line="30" selection-start-column="105" selection-end-line="30" selection-end-column="105" />
               <folding>
                 <element signature="e#6#114#0#PHP" expanded="true" />
                 <element signature="e#912#945#0#HTML" expanded="true" />
@@ -68,11 +107,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="googleapi.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/googleapi/googleapi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5939086" vertical-offset="924" max-vertical-offset="3705">
+              <caret line="85" column="49" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
+              <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
+                <marker date="1435874579000" expanded="true" signature="5945:6010" placeholder="select id fr..wp_gdrive..." />
+                <marker date="1435874579000" expanded="true" signature="6087:6172" placeholder="update wp_gd..." />
+                <marker date="1435874579000" expanded="true" signature="6293:6394" placeholder="insert into ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18181819" vertical-offset="0" max-vertical-offset="660">
-              <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -123,8 +177,8 @@
       <file leaf-file-name="common.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4117646" vertical-offset="1605" max-vertical-offset="3960">
-              <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
+            <state vertical-scroll-proportion="-4.117647" vertical-offset="0" max-vertical-offset="3960">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -135,6 +189,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="2181" max-vertical-offset="3105">
               <caret line="178" column="24" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preguntas-frecuentes.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/preguntas-frecuentes.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="510">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -185,6 +249,30 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
               <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gdriveCustomBox.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/gdriveCustomBox/gdriveCustomBox.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.708334" vertical-offset="136" max-vertical-offset="780">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+              <folding>
+                <element signature="e#6#33#0#PHP" expanded="true" />
+                <element signature="e#244#327#0#PHP" expanded="false" />
+                <marker date="1435787500000" expanded="true" signature="877:908" placeholder="select * fro..wp_gdrive..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gdriveCustomBox.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/gdriveCustomBox/gdriveCustomBox.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="405">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -266,6 +354,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="faqs.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/faqs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.875" vertical-offset="579" max-vertical-offset="1170">
+              <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -274,9 +372,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/post.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.css" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/vendor/pagos/plantilla.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/post.scss" />
@@ -291,9 +386,6 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/common.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/assetsManager/assetsManager.php" />
-        <option value="$PROJECT_DIR$/vendor/googleapi/googleapi.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/faqs.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/shop.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/vendor/pagos/pagos.php" />
         <option value="$PROJECT_DIR$/vendor/mailmanager/mailmanager.php" />
@@ -325,6 +417,12 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/shop.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/gdriveCustomBox/gdriveCustomBox.html" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/gdriveCustomBox/gdriveCustomBox.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/faqs.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/preguntas-frecuentes.scss" />
+        <option value="$PROJECT_DIR$/vendor/googleapi/googleapi.php" />
       </list>
     </option>
   </component>
@@ -408,7 +506,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -422,89 +520,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bemacadamia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bemacadamia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twentyfifteen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bemacadamia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bemacadamia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twentyfifteen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bemacadamia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bemacadamia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twentyfifteen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iconos" />
+              <option name="myItemId" value="googleapi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -598,6 +618,13 @@
       <option name="number" value="Default" />
       <updated>1431871454870</updated>
     </task>
+    <task id="LOCAL-00001" summary="cambios">
+      <created>1435698187185</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1435698187185</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -614,15 +641,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37218544" sideWeight="0.37124464" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28397712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28397712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -667,6 +694,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -675,47 +704,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/wpdbobject/wpdbobject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="390">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/cart/cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="3000">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <marker date="1434397622000" expanded="true" signature="-1:-1" placeholder="select * fro..wp_cart..." />
-            <marker date="1434397622000" expanded="true" signature="-1:-1" placeholder="select * fro..wp_cart..." />
-            <marker date="1434397622000" expanded="true" signature="-1:-1" placeholder="select * fro..wp_cart..." />
-            <marker date="1434397622000" expanded="true" signature="-1:-1" placeholder="update wp_ca..." />
-            <marker date="1434397622000" expanded="true" signature="-1:-1" placeholder="select * fro..wp_cart..." />
-            <marker date="1434397622000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1434397622000" expanded="true" signature="-1:-1" placeholder="update wp_ca..." />
-            <marker date="1434397622000" expanded="true" signature="-1:-1" placeholder="update wp_ca..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/postHelper/postHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1386" max-vertical-offset="2370">
-          <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
-          <folding>
-            <element signature="e#6#33#0#PHP" expanded="true" />
-            <marker date="1434210084000" expanded="true" signature="-1:-1" placeholder="select * fro..wp_posts..." />
-            <marker date="1434210084000" expanded="true" signature="-1:-1" placeholder="select * fro..wp_posts..." />
-            <marker date="1434210084000" expanded="true" signature="-1:-1" placeholder="select post_..wp_posts..." />
-            <marker date="1434210084000" expanded="true" signature="-1:-1" placeholder="select * fro..wp_posts..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
@@ -750,51 +738,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/googleapi/googleapi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3187" max-vertical-offset="3705">
-          <caret line="224" column="17" selection-start-line="224" selection-start-column="16" selection-end-line="224" selection-end-column="17" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1434487327000" expanded="true" signature="-1:-1" placeholder="select id fr..wp_gdrive..." />
-            <marker date="1434487327000" expanded="true" signature="-1:-1" placeholder="update wp_gd..." />
-            <marker date="1434487327000" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/gdriveManager/gDriveManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="765">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1433453506000" expanded="true" signature="-1:-1" placeholder="select * fro..wp_gdrive..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/faqs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1230">
-          <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
-          <folding>
-            <element signature="e#6#114#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/preguntas-frecuentes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -926,18 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/assetsManager/assetsManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.625" vertical-offset="495" max-vertical-offset="3930">
-          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="e#6#33#0#PHP" expanded="true" />
-            <marker date="1434487293000" expanded="true" signature="-1:-1" placeholder="select Json ..wp_gdrive..." />
-            <marker date="1434487293000" expanded="true" signature="-1:-1" placeholder="select Json ..wp_gdrive..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/shop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
@@ -1022,37 +957,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/images/iconos/Arrow_circle_left_hover.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.75" vertical-offset="36" max-vertical-offset="990">
           <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/shop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.823529" vertical-offset="0" max-vertical-offset="930">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="109" />
-          <folding>
-            <element signature="e#6#114#0#PHP" expanded="true" />
-            <element signature="e#912#945#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.083333" vertical-offset="112" max-vertical-offset="1485">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="25" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -1111,14 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4117646" vertical-offset="1605" max-vertical-offset="3960">
-          <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header-bemacadamia.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8235295" vertical-offset="0" max-vertical-offset="1800">
@@ -1132,9 +1032,123 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18181819" vertical-offset="0" max-vertical-offset="660">
-          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5294118" vertical-offset="270" max-vertical-offset="930">
+          <caret line="30" column="105" selection-start-line="30" selection-start-column="105" selection-end-line="30" selection-end-column="105" />
+          <folding>
+            <element signature="e#6#114#0#PHP" expanded="true" />
+            <element signature="e#912#945#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/images/iconos/Arrow_circle_left_hover.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/assetsManager/assetsManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="3930">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#33#0#PHP" expanded="true" />
+            <marker date="1434487293000" expanded="true" signature="5380:5442" placeholder="select Json ..wp_gdrive..." />
+            <marker date="1434487293000" expanded="true" signature="5528:5602" placeholder="select Json ..wp_gdrive..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/gdriveManager/staticFiles/gDriveManager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1815">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/gdriveCustomBox/gdriveCustomBox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.708334" vertical-offset="136" max-vertical-offset="780">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding>
+            <element signature="e#6#33#0#PHP" expanded="true" />
+            <element signature="e#244#327#0#PHP" expanded="false" />
+            <marker date="1435787500000" expanded="true" signature="877:908" placeholder="select * fro..wp_gdrive..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/gdriveCustomBox/gdriveCustomBox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="405">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.117647" vertical-offset="0" max-vertical-offset="3960">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/faqs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.875" vertical-offset="579" max-vertical-offset="1170">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.083333" vertical-offset="112" max-vertical-offset="1485">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="25" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/preguntas-frecuentes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="510">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/gdriveManager/gDriveManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.125" vertical-offset="174" max-vertical-offset="765">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <marker date="1433453506000" expanded="true" signature="1060:1083" placeholder="select * fro..wp_gdrive..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/googleapi/googleapi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5939086" vertical-offset="924" max-vertical-offset="3705">
+          <caret line="85" column="49" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1435874579000" expanded="true" signature="5945:6010" placeholder="select id fr..wp_gdrive..." />
+            <marker date="1435874579000" expanded="true" signature="6087:6172" placeholder="update wp_gd..." />
+            <marker date="1435874579000" expanded="true" signature="6293:6394" placeholder="insert into ..." />
+          </folding>
         </state>
       </provider>
     </entry>

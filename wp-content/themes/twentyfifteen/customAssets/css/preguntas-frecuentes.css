@@ -7,4 +7,21 @@
   height: 1px;
   margin: 20px auto; }
 
-/*# sourceMappingURL=faqs.css.map */
+.container {
+  text-align: center; }
+  .container h2 {
+    margin-top: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500; }
+  .container p {
+    width: 60%;
+    margin: auto; }
+
+ul, li {
+  list-style: none; }
+
+.ct-footer {
+  margin-top: 8em;
+  text-align: center; }
+
+/*# sourceMappingURL=preguntas-frecuentes.css.map */

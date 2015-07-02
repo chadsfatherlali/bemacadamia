@@ -66,7 +66,7 @@ get_header('bemacadamia');
             <p>Indicaciones en las etiquetas de los vestidos.</p>
         </div>
 
-        <div class="contenido txt-center">
+        <div class="contenido txt-cente ct-footer">
             <p class="play-fair-regular">beMacadamia</p>
             <h2 class="play-fair-regular">Walk on by</h2>
 

@@ -83,7 +83,7 @@ class googleapi
             }
 
             else {
-                echo '<a href="' . $client->createAuthUrl() . '">REDIRECCIONANDO AUTOMATICAMENTE A GDRIVE, SI NO LO HACE DAR UN CLICK AQUI...</a>';
+                echo '<a href="javascript:void(0)">ACTUALIZANDO LAS IMAGENES DE GDRIVE... POR FAVOR ESPERE</a>';
                 echo '<script>window.location = "' . $client->createAuthUrl() . '";</script>';
             }
         }

@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<h1>SuckerPunch</h1>
+
+<script>
+    (function($) {
+        setTimeout(function() {
+            loadGdriveSelector();
+        }, 2000);
+
+
+        function loadGdriveSelector()
+        {
+            var gdriveFolderId = $('input[name="wpcf[gdrive]"]').val();
+
+            $('input[name="wpcf[gdrive]"]').change(function (e) {
+                console.log($(this).val());
+            });
+        }
+    })(jQuery);
+</script>

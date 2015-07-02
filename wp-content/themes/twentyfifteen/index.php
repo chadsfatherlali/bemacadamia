@@ -19,7 +19,7 @@ get_header('bemacadamia'); ?>
     <div class="container-fluid">
         <div class="principal-message">
             <p class="play-fair-regular transition-txt transition-txt-1 hidden-xs"><?php tokensManager::setText(8) ?></p>
-            <h2 class="play-fair-regular transition-txt transition-txt-2 hidden-xs">Walk on by</h2>
+            <h2 class="play-fair-regular transition-txt transition-txt-2 Øhidden-xs">Walk on by</h2>
             <!-- <div class="separator"></div> -->
             <a href="/shop" class="btn btn-default home-btn transition-txt transition-txt-3">Comprar</a>
         </div>

@@ -1,10 +1,29 @@
 .contenido {
     margin-top: 1em;
 }
-
 .separator {
     background-color: #000000;
     width: 50px;
     height: 1px;
     margin: 20px auto;
+}
+.container {
+    text-align: center;
+    h2 {
+        margin-top: 2em;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 500;
+    }
+    p{
+        width: 60%;
+        margin: auto;
+    }
+}
+ul, li {
+    list-style: none;
+}
+
+.ct-footer {
+    margin-top: 8em;
+    text-align: center;
 }
