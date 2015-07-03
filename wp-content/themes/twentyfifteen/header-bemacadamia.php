@@ -12,6 +12,7 @@ assetsManager::__obStart();
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/png" href="<?php echo assetsManager::getPathImages('logos', 'favicon.png') ?>" />
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <!--[if lt IE 9]>

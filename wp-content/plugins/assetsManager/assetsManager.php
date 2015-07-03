@@ -251,6 +251,13 @@ class assetsManager
             echo $content;
         });
     }
+
+    public static function bypedText($string, $part = 0)
+    {
+        $text = explode(' ', $string);
+
+        echo $text[$part];
+    }
 }
 
 /** @var  $assetsManager */

@@ -36,10 +36,15 @@
       z-index: 9999;
       padding: 12em 0;
       text-align: center; }
-      .products .product a .velo button {
-        border: none !important;
-        background: rgba(255, 255, 255, 0.2);
-        color: white !important; }
+      .products .product a .velo .white-bg {
+        width: 80%;
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 3em 0em;
+        transform: translate(0, -50%); }
+        .products .product a .velo .white-bg p {
+          line-height: 0.8;
+          font-weight: 500; }
     .products .product a:hover .velo {
       display: block; }
   .products .img {
