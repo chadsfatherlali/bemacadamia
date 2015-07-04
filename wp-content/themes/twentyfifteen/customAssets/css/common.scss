@@ -180,6 +180,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 }
 #menu-responsive-link {
+    box-shadow: none !important;
     span {
         color: #000000;
     }
@@ -256,6 +257,45 @@ footer {
 body .modal-content .modal-footer{
     padding: 0 24px 24px;
     text-align: left;
+}
+#hamburger-menu {
+    @media (min-width: 768px) {
+        width: 3em;
+    }
+}
+@media (max-width: 992px) {
+    #menu {
+        position: fixed;
+        width: 100%;
+        left: 0px;
+        top: 91px;
+        background-color: rgba(255 ,255, 255, 0.9);
+        height: 0% !important;
+        visibility: hidden;
+        display: block !important;
+
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        ul {
+            li {
+                a {
+                    color: #000000 !important;
+                    text-align: center;
+                    font-size: 18px;
+                    padding: 1em;
+                    &:after {
+                        background: #000000 !important;
+                    }
+                }
+            }
+        }
+        &.enabled {
+            visibility: visible;
+            height: 100% !important;
+        }
+    }
 }
 
 

@@ -86,11 +86,11 @@ assetsManager::__obStart();
                 <div class="row">
                     <div class="col-xs-3 visible-xs-block visible-sm-block">
                         <ul class="nav navbar-nav">
-                            <li><a href="/" id="menu-responsive-link" class="btn btn-lg"><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
+                            <li id="hamburger-menu"><a href="javascript:void(0)" id="menu-responsive-link" class="btn btn-lg"><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
                         </ul>
                     </div>
 
-                    <div class="col-xs-5 visible-md-block visible-lg-block">
+                    <div id="menu" class="col-xs-5 visible-md-block visible-lg-block">
                         <ul class="nav navbar-nav">
                             <li><a href="/"><?php tokensManager::setText(1) ?></a></li>
                             <li><a href="/shop"><?php tokensManager::setText(2) ?></a></li>
@@ -101,7 +101,6 @@ assetsManager::__obStart();
                     </div>
 
                     <div class="logo-bemacadamia-header visible-md-block">
-                        <!-- <a href="#"><img class="w-200" src="<?php echo assetsManager::getPathImages('logos', 'Logo_black.svg') ?>" /></a> -->
                         <a href="/"><?php echo assetsManager::getSvgImages('logos', 'Logo_black') ?></a>
                     </div>
 

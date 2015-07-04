@@ -22,4 +22,8 @@
             window.top.location = '/cart?id=' + $.cookie('cart');
         }
     });
+
+    $('#menu-responsive-link').on('click', function() {
+        $('#menu').toggleClass('enabled').slideToggle();
+    });
 })(jQuery, _);

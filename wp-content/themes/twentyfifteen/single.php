@@ -35,7 +35,7 @@ get_header('bemacadamia'); ?>
                 </div>
             </div>
 
-            <div class="col-md-8">
+            <div class="col-md-8" id="info-content">
                 <div class="col-lg-12 conten-form">
                     <h2 class="play-fair-regular"><?php echo $post['post'][0]['post_title'] ?></h2>
 
@@ -78,8 +78,8 @@ get_header('bemacadamia'); ?>
                             </li>
                             <li>
                                 <div class="form-footer">
-                                    <button type="submit" id="sentToCart" class="btn btn-default" /><?php tokensManager::setText(13) ?></button>
-                                    <div class="price play-fair-regular"><?php echo $post['custom']['wpcf-precio'][0] ?> € <span class="font-12">(IVA incluido)</span></div>
+                                    <button type="submit" id="sentToCart" class="btn btn-default" /><?php tokensManager::setText(13) ?> <div class="visible-xs-inline font-12"><?php echo $post['custom']['wpcf-precio'][0] ?> € <span class="font-12">(IVA incluido)</span></div></button>
+                                    <div class="price play-fair-regular hidden-xs"><?php echo $post['custom']['wpcf-precio'][0] ?> € <span class="font-12">(IVA incluido)</span></div>
                                 </div>
                             </li>
                         </ul>

@@ -29,15 +29,22 @@ $gris: #949494;
 }
 .headers {
     margin: 30px 0;
+    @media (max-width: 768px) {
+        margin: 50px 0;
+    }
 }
 #totales {
     border-top: 1px dotted $gris;
     padding: 1em 0;
+    height: 8em;
 }
 .form-user {
     overflow: hidden;
     position: relative;
     max-height: 1000px;
+    @media (max-width: 768px) {
+        max-height: 1050px;
+    }
 }
 .payment-method-1 {
     transform: translate(0%, 0%);
@@ -86,5 +93,13 @@ $gris: #949494;
 #modal-pago4 {
     .separator {
         margin: 20px auto !important;
+    }
+}
+#form-compra-datos-usuario {
+    #valid-user-data {
+        @media (max-width: 768px) {
+            width: 100%;
+            padding: 1em !important;
+        }
     }
 }
