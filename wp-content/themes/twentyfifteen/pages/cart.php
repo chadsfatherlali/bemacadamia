@@ -122,7 +122,7 @@ get_header('bemacadamia');?>
                         </div>
 
                         <div class="form-group txt-right">
-                            <input id="valid-user-data" type="submit" class="btn btn-default" value="Continuar" />
+                            <button id="valid-user-data" type="submit" name="enviodedatos" class="btn btn-default">Continuar</button>
                         </div>
                     </form>
                 </div>

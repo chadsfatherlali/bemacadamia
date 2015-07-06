@@ -4,7 +4,6 @@
 (function($) {
     precioTotal:
     {
-        calculatePrecios();
         function calculatePrecios() {
             var incremento = 4;
             var precios = $('.precios');
@@ -29,7 +28,7 @@
             $('#full-total').html((total + incremento).toString().replace('.', ',') + '€');
             $('#sub-total').html(total.toString().replace('.', ',') + '€');
         }
-
+        calculatePrecios();
     }
 
     toTrahs:
@@ -76,7 +75,9 @@
     validate:
     {
         $form = $('#form-compra-datos-usuario');
-        $form.validate({
+        $form.submit(function(e) {
+            e.preventDefault();
+        }).validate({
             submitHandler: function(form) {
                 $('.payment-method-1').addClass('next');
                 $('.payment-method-2').addClass('next');

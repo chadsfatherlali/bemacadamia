@@ -54,6 +54,8 @@ $gris: #949494;
     transition: all 0.5s ease-in-out;
 }
 .payment-method-1.next{
+    -ms-transform: translate(-110%, 0%);
+    -webkit-transform: translate(-110%, 0%);
     transform: translate(-110%, 0%);
 }
 .payment-method-2 {
@@ -63,7 +65,9 @@ $gris: #949494;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
-.payment-method-2.next{
+.payment-method-2.next {
+    -ms-transform: translate(0%, -150.9%);
+    -webkit-transform: translate(0%, -150.9%);
     transform: translate(0%, -150.9%);
 
 }
