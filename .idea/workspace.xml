@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ab4f423-1efd-457c-a277-12a529826308" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.css" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/cart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.scss" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.css" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.scss" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/pagos/pagos.html" afterPath="$PROJECT_DIR$/vendor/pagos/pagos.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bemacadamia.iws" />
@@ -142,10 +136,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shop.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shop.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8002833" vertical-offset="230" max-vertical-offset="1665">
+            <state vertical-scroll-proportion="-23.541666" vertical-offset="230" max-vertical-offset="1665">
               <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
               <folding />
             </state>
@@ -157,6 +151,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-42.703705" vertical-offset="27287" max-vertical-offset="28635">
               <caret line="1898" column="17" selection-start-line="1898" selection-start-column="17" selection-end-line="1898" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagos.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1669107" vertical-offset="36" max-vertical-offset="990">
+              <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -202,7 +206,6 @@
         <option value="$PROJECT_DIR$/updateFromGit.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/pages/lookbook.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/lookbook.scss" />
-        <option value="$PROJECT_DIR$/vendor/pagos/pagos.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/post.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/gdriveCustomBox/gdriveCustomBox.html" />
@@ -221,6 +224,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/cart.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/js/cart.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.scss" />
+        <option value="$PROJECT_DIR$/vendor/pagos/pagos.html" />
       </list>
     </option>
   </component>
@@ -793,14 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16147308" vertical-offset="36" max-vertical-offset="990">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18181819" vertical-offset="0" max-vertical-offset="660">
@@ -1009,8 +1005,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/customAssets/css/shop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8002833" vertical-offset="230" max-vertical-offset="1665">
+        <state vertical-scroll-proportion="-23.541666" vertical-offset="230" max-vertical-offset="1665">
           <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/pagos/pagos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1669107" vertical-offset="36" max-vertical-offset="990">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
           <folding />
         </state>
       </provider>
