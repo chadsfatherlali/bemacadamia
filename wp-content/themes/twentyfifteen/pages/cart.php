@@ -51,7 +51,7 @@ get_header('bemacadamia');?>
                         </div>
 
                         <div class="form-group">
-                            <label for="select" class="col-lg-12 control-label no-padding">* Ciudad</label>
+                            <label for="select" class="control-label">* Ciudad</label>
                             <div class="no-padding">
                                 <select class="form-control" name="ciudad" id="ciudad">
                                     <option>(Seleccionar)</option>
