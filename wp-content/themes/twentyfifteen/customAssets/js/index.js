@@ -1,14 +1,7 @@
 /**
  * Created by chadsfather on 30/5/15.
  */
-(function($, _gaq) {
-   _gaq('send', 'pageview', {
-        'page': '/',
-        'hitCallback': function() {
-            _gaq('send', 'event', 'TEST', 'Inicia la cookie', 'Navegador', 'DESFFFS');
-        }
-    });
-
+(function($) {
     $('.carousel').carousel({
       interval: 9000
     })
@@ -32,4 +25,4 @@
     setTimeout(function() {
         $('.transition-txt-3').addClass('transition-txt-in');
     }, 2600);
-})(jQuery, _gaq);
+})(jQuery);

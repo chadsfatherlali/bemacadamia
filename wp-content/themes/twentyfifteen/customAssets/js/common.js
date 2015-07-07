@@ -1,4 +1,3 @@
-var _gaq = __gaTracker || {};
 (function($, _) {
     $("div.lazy").lazyload({
         effect : "fadeIn"
