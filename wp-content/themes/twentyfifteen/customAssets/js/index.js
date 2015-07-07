@@ -2,14 +2,12 @@
  * Created by chadsfather on 30/5/15.
  */
 (function($, _gaq) {
-   /* _gaq('send', 'pageview', {
-        'page': '/my-new-page',
+   _gaq('send', 'pageview', {
+        'page': '/',
         'hitCallback': function() {
-            __gaTracker('send', 'event', 'TEST', 'Inicia la cookie', 'Navegador', 'DESFFFS');
+            _gaq('send', 'event', 'TEST', 'Inicia la cookie', 'Navegador', 'DESFFFS');
         }
-    });*/
-
-    _gaq('send', 'event', 'TEST', 'Inicia la cookie', 'Navegador', 'DESFFFS');
+    });
 
     $('.carousel').carousel({
       interval: 9000
