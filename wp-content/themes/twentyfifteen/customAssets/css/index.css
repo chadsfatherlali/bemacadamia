@@ -109,6 +109,8 @@ html, body {
   color: white;
   top: 50%;
   left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: 5; }
   .principal-message p {
@@ -161,6 +163,8 @@ html, body {
 .transition-txt {
   filter: alpha(opacity=0);
   opacity: 0;
+  -ms-transform: translate(0%, 50%);
+  -webkit-transform: translate(0%, 50%);
   transform: translate(0%, 50%);
   -webkit-transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
   -moz-transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
@@ -170,6 +174,8 @@ html, body {
 .transition-txt-in {
   filter: alpha(opacity=100);
   opacity: 1;
+  -ms-transform: translate(0%, 0%);
+  -webkit-transform: translate(0%, 0%);
   transform: translate(0%, 0%); }
 
 /*# sourceMappingURL=index.css.map */

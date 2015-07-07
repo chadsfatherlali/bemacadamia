@@ -246,8 +246,8 @@ get_header('bemacadamia');?>
                     <h4 class="modal-title" id="myModalLabel">Pago por Transferencia Bancaria</h4>
                 </div>
                 <div class="modal-body">
-                    <p>A través de transferencia bancaria al siguiente número de cuenta: xxxx.</p>
-                    <p>Una vez nos hagas llegar el justificante de la transferencia,tramitaremos tu pedido y te llegara en un plazo de 24/48horas.</p>
+                    <p>A través de transferencia bancaria al siguiente número de cuenta: IBAN: ES77-0128-0012-8301-0005-0165.</p>
+                    <p><strong>Una vez nos hagas llegar el justificante de la transferencia</strong>, tramitaremos tu pedido y te llegara en un plazo de 24/48horas.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Continue</button>
@@ -285,9 +285,9 @@ get_header('bemacadamia');?>
                         <ul>
                             <li>
                                 <strong>1)</strong> A través de transferencia bancaria al siguiente número de cuenta: IBAN: ES77-0128-0012-8301-0005-0165.
-                                Una vez nos hagas llegar el justificante de la transferencia, tramitaremos tu pedido y te llegara en un plazo de 24/48horas.
-                                Concepto (importante especificar): tu nombre y apellidos.
-                                Beneficiario: Marina.
+                                <strong>Una vez nos hagas llegar el justificante de la transferencia</strong>, tramitaremos tu pedido y te llegara en un plazo de 24/48horas.
+                                <div>Concepto (importante especificar): tu nombre y apellidos.</div>
+                                <div>Beneficiario: Marina.</div>
                             </li>
                             <li>
                                 2) A contra reembolso, lo cual lleva aparejado un gasto extra pues la empresa de transportes tiene que volver a remitirnos el importe del pedido.

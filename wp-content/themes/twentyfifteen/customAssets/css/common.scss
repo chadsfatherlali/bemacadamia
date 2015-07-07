@@ -135,7 +135,10 @@ input[type=number]::-webkit-outer-spin-button {
         width: 70%;
         height: 1px;
         background: $gris;
-        transform: translate(-50%,0%);
+
+        -ms-transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+        transform: translate(-50%, 0%);
     }
 }
 .navbar-default .navbar-nav>.active>a {
@@ -149,7 +152,10 @@ input[type=number]::-webkit-outer-spin-button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     a{
         display: block;
         width: 251px;
@@ -175,7 +181,10 @@ input[type=number]::-webkit-outer-spin-button {
         right: 0;
         width: 20px;
         height: 20px;
-        transform: translate(0,-50%);
+
+        -ms-transform: translate(0%, -50%);
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0, -50%);
     }
 
 }
@@ -273,6 +282,7 @@ body .modal-content .modal-footer{
         height: 0% !important;
         visibility: hidden;
         display: block !important;
+        overflow: hidden;
 
         -webkit-transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
