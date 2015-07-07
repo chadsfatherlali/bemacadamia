@@ -1,4 +1,18 @@
 # BEGIN WordPress
+<ifModule mod_headers.c>
+ExpiresActive On
+
+# Expires after 1 month
+<filesMatch ".(gif|png|jpg|jpeg|ico|pdf|js|htm|html|txt)$">
+Header set Cache-Control "max-age=2592000"
+</filesMatch>
+
+# Expires after 1 day
+<filesMatch ".(css)$">
+Header set Cache-Control "max-age=86400"
+</filesMatch>
+</ifModule>
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
