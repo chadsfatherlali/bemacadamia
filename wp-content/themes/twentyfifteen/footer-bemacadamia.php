@@ -27,7 +27,7 @@
 
 <script src="/wp-content/themes/twentyfifteen/customAssets/js/plugins.js"></script>
 <script src="/wp-content/themes/twentyfifteen/customAssets/js/bootstrap.js"></script>
-<script src="/wp-content/themes/twentyfifteen/customAssets/js/common.js"></script>
+<script src="/wp-content/themes/twentyfifteen/customAssets/js/common.min.js"></script>
 
 <?php wp_footer(); ?>
 </body>

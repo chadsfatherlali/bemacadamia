@@ -1379,9 +1379,9 @@ if (typeof Object.create !== "function") {
             }
             base.clearEvents();
             base.$elem.attr({
-                style: base.$elem.data("owl-originalStyles") || "",
-                class: base.$elem.data("owl-originalClasses")
-            });
+                'style': base.$elem.data("owl-originalStyles") ||  "",
+                'class': base.$elem.data("owl-originalClasses")
+            })
         },
 
         destroy : function () {
@@ -1725,10 +1725,13 @@ if (typeof Object.create !== "function") {
 
 })(window, jQuery);
 
-(function($, _) {
+(function($, _, window) {
     var owl = $("#owl-demo");
 
-    var ez = $("#img-full").elevateZoom({easing: true});
+    if(!window.mobilecheck()) {
+        alert(324234);
+        var ez = $("#img-full").elevateZoom({easing: true});
+    }
 
     owl.owlCarousel({
         items: 4
@@ -1785,7 +1788,7 @@ if (typeof Object.create !== "function") {
 
     $('.input-stepper').inputStepper({
         selectorButtonIncrease: '.increase',
-        selectorButtonDecrease: '.decrease',        
+        selectorButtonDecrease: '.decrease'
     });
 
     // INITS
@@ -1903,4 +1906,4 @@ if (typeof Object.create !== "function") {
         }
     });
 
-})(jQuery, _);
+})(jQuery, _, window);

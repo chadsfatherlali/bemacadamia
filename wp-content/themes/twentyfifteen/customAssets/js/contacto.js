@@ -1,7 +1,6 @@
 /**
  * Created by chadsfather on 5/6/15.
  */
-
 (function($, _) {
     $form = $('#form-contact');
 

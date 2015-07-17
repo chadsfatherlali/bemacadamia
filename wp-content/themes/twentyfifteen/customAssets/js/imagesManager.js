@@ -2,6 +2,7 @@
  * Created by chadsfather on 4/6/15.
  */
 var imagesManager = (function($, _, gapi) {
+
     function getOAuth()
     {
         gapi.auth.authorize({

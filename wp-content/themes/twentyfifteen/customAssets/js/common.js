@@ -1,4 +1,5 @@
 (function($, _) {
+
     $("div.lazy").lazyload({
         effect : "fadeIn"
     });

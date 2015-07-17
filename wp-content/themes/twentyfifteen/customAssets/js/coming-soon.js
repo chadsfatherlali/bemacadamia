@@ -671,7 +671,7 @@
     $(function() {
         $('body').vegas({
             slides: [
-                { src: bgFullImage },
+                { src: bgFullImage }
             ]
         });
     });

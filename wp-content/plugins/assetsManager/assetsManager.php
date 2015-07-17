@@ -94,9 +94,10 @@ class assetsManager
 
         $pageName = $this->pageName? $this->pageName : 'index';
         $pageName = is_single()? 'post' : $pageName;
+        $prefixJs = $_GET['minhtml']? '.js' : '.min.js';
 
         $assetsCss = '<link rel=\'stylesheet\' href=\'/wp-content/themes/twentyfifteen/customAssets/css/' . $pageName . '.css\'/>';
-        $assetsJs = '<script src=\'/wp-content/themes/twentyfifteen/customAssets/js/' . $pageName . '.js\'></script>';
+        $assetsJs = '<script src=\'/wp-content/themes/twentyfifteen/customAssets/js/' . $pageName . $prefixJs . '\'></script>';
 
         add_action('wp_head', function() use($assetsCss) {
             echo $assetsCss;

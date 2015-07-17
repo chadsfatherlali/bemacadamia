@@ -1,6 +1,7 @@
 /**
  * Created by chadsfather on 10/6/15.
  */
+
 (function($) {
     precioTotal:
     {
