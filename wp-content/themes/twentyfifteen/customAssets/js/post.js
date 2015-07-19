@@ -1729,7 +1729,6 @@ if (typeof Object.create !== "function") {
     var owl = $("#owl-demo");
 
     if(!window.mobilecheck()) {
-        alert(324234);
         var ez = $("#img-full").elevateZoom({easing: true});
     }
 
