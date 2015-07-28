@@ -373,11 +373,11 @@ function wpcf_ajax_embedded() {
             break;
 
         case 'repetitive_delete':
-            if ( isset( $_POST['post_id'] ) && isset( $_POST['field_id'] ) ) {
+            if ( isset( $_REQUEST['post_id'] ) && isset( $_REQUEST['field_id'] ) ) {
                 require_once WPCF_EMBEDDED_INC_ABSPATH . '/fields.php';
-                $post = get_post( $_POST['post_id'] );
-                $field = wpcf_admin_fields_get_field( $_POST['field_id'] );
-                $meta_id = $_POST['meta_id'];
+                $post = get_post( $_REQUEST['post_id'] );
+                $field = wpcf_admin_fields_get_field( $_REQUEST['field_id'] );
+                $meta_id = $_REQUEST['meta_id'];
                 if ( !empty( $field ) && !empty( $post->ID ) && !empty( $meta_id ) ) {
                     /*
                      * 
@@ -389,9 +389,11 @@ function wpcf_ajax_embedded() {
                     $wpcf->repeater->set( $post, $field );
                     $wpcf->repeater->delete( $meta_id );
 
-                    echo json_encode( array(
+                    header('Location: /wp-admin/post.php?post=' . $_REQUEST['post_id'] . '&action=edit');
+
+                    /*echo json_encode( array(
                         'output' => 'deleted',
-                    ) );
+                    ) );*/
                 } else {
                     echo json_encode( array(
                         'output' => 'field or post not found',
