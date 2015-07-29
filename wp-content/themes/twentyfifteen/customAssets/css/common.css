@@ -267,5 +267,9 @@ body .modal-content .modal-footer {
     #menu.enabled {
       visibility: visible;
       height: 100% !important; } }
+.lazyloader {
+  position: relative;
+  top: 49%;
+  left: 49%; }
 
 /*# sourceMappingURL=common.css.map */

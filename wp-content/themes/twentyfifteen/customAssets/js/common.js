@@ -1,7 +1,10 @@
 (function($, _) {
 
     $("div.lazy").lazyload({
-        effect : "fadeIn"
+        effect : "fadeIn",
+        load: function() {
+            $(this).find('img').remove()
+        }
     });
 
     function cartHash() {

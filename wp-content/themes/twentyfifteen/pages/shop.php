@@ -30,7 +30,9 @@ get_header('bemacadamia'); ?>
                 ?>
                 <div class="col-sm-4 product">
                     <a href="<?php echo ($dispo === '1' || !isset($dispo))? '/' . $post['post']['post_name'] : 'javascript:void(0)' ?>">
-                        <div class="img lazy" data-original="<?php echo $post['custom']['wpcf-imagen'][0] ?>" style="background-image: url('')"></div>
+                        <div class="img lazy" data-original="<?php echo $post['custom']['wpcf-imagen'][0] ?>" style="background-image: url('')">
+                            <img class="lazyloader" src="<?php echo assetsManager::getPathImages('general-img', 'ajax-loader.gif') ?>" />
+                        </div>
                         <div class="velo">
                             <div class="white-bg">
                                 <p class="font-negro source-sans-pro font-14"><?php assetsManager::bypedText($post['post']['post_title']) ?></p>
