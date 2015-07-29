@@ -25,7 +25,8 @@ class postHelper {
         $results = $wpdb->get_results("select *
         from wp_posts as a
         where a.post_type = 'post'
-        and a.post_status = 'publish'", "ARRAY_A");
+        and a.post_status = 'publish'
+        order by a.post_title", "ARRAY_A");
 
         return $results;
     }
