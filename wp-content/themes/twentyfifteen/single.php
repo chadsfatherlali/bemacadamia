@@ -69,7 +69,7 @@ get_header('bemacadamia'); ?>
                                 </div>
                             </li>
                             <li>
-                                <h4>Colores</h4>
+                                <h4>Color</h4>
                                 <ul class="form-interactive form-colors" id="colors">
                                     <?php foreach($post['custom']['wpcf-colores_producto'] as $key => $color) { ?>
                                         <li data-color="<?php echo $color ?>" style="background-color: <?php echo $color ?>; box-shadow: 0 0 0 0px <?php echo $color ?>;"></li>
